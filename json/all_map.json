@@ -1,0 +1,144 @@
+[
+  {
+    "id" : "gymnasium_1",
+    "alt" : "第1体育館",
+    "shape" : "rect",
+    "coords" : "427,267, 660,410",
+    "description" : "主にバンドのライブが行われます。<br /> <a href='time_schedule.php'>タイムスケジュール</a>",
+    "pic" : "img/building_img/gymnasium_1.JPG"
+  },
+  {
+    "id" : "gymnasium_2",
+    "alt" : "第2体育館",
+    "shape" : "rect",
+    "coords" : "661,235, 856,376",
+    "description" : "吹奏楽部の発表が行われています。<br /> <a href='time_schedule.php'>タイムスケジュール</a>",
+    "pic" : "img/building_img/gymnasium_2.JPG"
+  },
+
+  {
+    "id" : "research_building_1",
+    "href" : "research_building_1",
+    "alt" : "第1研究棟",
+    "shape" : "poly",
+    "coords" : " 420,754, 420,858, 536,858, 548,847, 656,847, 656,858, 790,858, 847,800, 847,690, 481,690",
+    "pic" : "img/building_img/research_building_1.JPG"
+  },
+
+  {
+    "id" : "research_building_2",
+    "href" : "research_building_2_3",
+    "alt" : "第2研究棟",
+    "shape" : "poly",
+    "coords" : "486,456, 407,535, 407,573, 424,573, 424,599, 620,599, 682,535, 681,456",
+    "pic" : "img/building_img/research_building_2.JPG"
+  },
+
+  {
+    "id" : "research_building_3",
+    "href" : "research_building_2_3",
+    "alt" : "第3研究棟",
+    "shape" : "poly",
+    "coords" : "730,527, 652,606, 652,621, 634,640, 634,672, 651,672, 651,690, 796,690, 875,612, 875,527",
+    "pic" : "img/building_img/research_building_3.1.JPG"
+  },
+
+  {
+    "id" : "synthesis_educate_building",
+    "href" : "synthesis_educate_building",
+    "alt" : "総合教育棟",
+    "shape" : "poly",
+    "coords" : " 656,1196, 656,1300, 765,1300, 765,1326, 825,1326, 825,1354, 945,1354, 1005,1292, 1005,1188, 893,1188, 891,1130, 721,1130",
+    "pic" : "img/building_img/synthesis_educate_building.JPG"
+  },
+
+  {
+    "id" : "general_building",
+    "href" : "general_building",
+    "alt" : "一般研究棟",
+    "shape" : "poly",
+    "coords" : " 627,991, 627,1022, 595,1055, 595,1093, 836,1093, 876,1053, 876,971, 649,971",
+    "pic" : "img/building_img/general_building.JPG"
+  },
+
+  {
+    "id" : "experiment_and_practice_building",
+    "href" : "experiment_and_practice_building",
+    "alt" : "実験実習センター",
+    "shape" : "poly",
+    "coords" : " 873,564, 873,612, 845,643, 845,889, 973,891, 987,878, 987,564",
+    "pic" : "img/building_img/experiment_and_practice_building.JPG"
+  },
+
+  {
+    "id" : "ground",
+    "alt" : "グラウンド",
+    "shape" : "circle",
+    "coords" : " -50,394, 240",
+    "pic" : "img/building_img/ground.JPG"
+  },
+
+  {
+    "id" : "student_union_building",
+    "alt" : "学友会館",
+    "shape" : "poly",
+    "coords" : " 249,779, 249,874, 252,874, 252,905, 317,905, 328,891, 328,873, 351,873, 374,842, 374,747, 280,747",
+    "pic" : "img/building_img/student_union_building.JPG"
+  },
+
+  {
+    "id" : "library",
+    "alt" : "図書館",
+    "shape" : "poly",
+    "coords" : "122,948, 76,992, 29,1055, 47,1069, 31,1089, 92,1135, 108,1116, 127,1128, 174,1082, 199,1048, 218,1063, 187,1101, 225,1129, 272,1081, 315,1021, 278,995, 236,1027, 222,1017, 251,978, 237,968, 223,983, 157,937, 140,958",
+    "pic" : "img/building_img/library.JPG"
+  },
+
+  {
+    "id" : "martial",
+    "alt" : "武道場",
+    "shape" : "poly",
+    "coords" : "440,127, 423,143, 423,210, 476,210, 477,232, 503,232, 518,218, 518,210, 552,210, 567,195, 567,127",
+    "pic" : "img/building_img/martial.JPG"
+  },
+
+  {
+    "id" : "lecture_building_B",
+    "alt" : "講義棟B",
+    "shape" : "poly",
+    "coords" : "126,773, 111,789, 111,948, 144,948, 157,936, 174,948, 180,948, 195,932, 195,831, 201,831, 215,816, 216,773",
+    "pic" : "img/building_img/lecture_building_B.JPG"
+  },
+
+  {
+    "id" : "lecture_building_C",
+    "alt" : "講義棟C",
+    "shape" : "poly",
+    "coords" : "474,633, 459,648, 460,712, 483,689, 571,689, 571,632",
+    "pic" : "img/building_img/lecture_building_C.JPG"
+  },
+  {
+    "id" : "general_front",
+    "href" : "general_front",
+    "alt" : "一般研究棟前",
+    "shape" : "poly",
+    "coords" : "593,1092, 593,1194, 656,1194, 719,1130, 865,1130, 862,1092",
+    "_pic" : "img/building_img/lecture_building_C.JPG"
+  },
+  {
+    "id" : "synthesis_front",
+    "href" : "synthesis_front",
+    "alt" : "総合教育棟前",
+    "shape" : "poly",
+    "coords" : "637,1300, 637,1426, 826,1426, 826,1326, 766,1326, 766,1299",
+    "_pic" : "img/building_img/lecture_building_C.JPG"
+  },
+  {
+    "id" : "experiment_front",
+    "href" : "experiment_front",
+    "alt" : "研究棟前",
+    "shape" : "poly",
+    "coords" : "659,862, 660,968, 843,968, 843,862",
+    "pic" : "img/building_img/experiment_front.JPG"
+  }
+]

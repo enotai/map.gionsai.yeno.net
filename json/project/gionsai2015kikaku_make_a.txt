@@ -1,0 +1,443 @@
+[
+  {
+    "project_type" : "A",
+    "project_number" : "1",
+    "project_name" : "ものづくりカフェ",
+    "group_name" : "D4の愉快な仲間たち",
+    "group_type" : "有志",
+    "room_name" : "ものづくり室B(プロトタイピング室)",
+    "building_name" : "第1研究棟",
+    "floor_number" : "1",
+    "room_number" : "",
+    "contents" : "電子工作体験,展示,応用\n電子制御工学科の宣伝\n参加者へのお茶うけ程度のお菓子の提供\n\n･はんだ付けをして回路を作ってみる(持ち帰り可能)\n･簡単なプログラムを組んでLEDを思い通りに光らせる\n･なぜなに相談コーナー\n→高専生に自由に質問できる\n･その他技術系展示･体験",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "2",
+    "project_name" : "1/150の世界へようこそ!!",
+    "group_name" : "模型愛好会",
+    "group_type" : "同好会",
+    "room_name" : "共通ゼミ室A",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "Nゲージのジオラマ展示、マイコンを用いた模型列車運転",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "3",
+    "project_name" : "自動化研展示",
+    "group_name" : "自動化機構研究室",
+    "group_type" : "研究室",
+    "room_name" : "自動化機構研究室",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "研究室内で制作物、研究内容などを公開して、研究室の特色をアピールする。電子工作、FA、LEGO、プラレールに機械工学科の特色を盛り込む。\nまた、CNC旋盤を使ったアクリル製逆さゴマの制作過程を実際に見てもらい、いくつか配布する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "4",
+    "project_name" : "鉛筆オルガンをつくろう！",
+    "group_name" : "D5有志",
+    "group_type" : 有志",
+    "room_name" : "電子制御第2実験室",
+    "building_name" : "第２研究棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ブレッドボードを用いて電子工作(電子オルガン作成)をする．",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "5",
+    "project_name" : "モアイ釣り・コンクリートカヌー展示",
+    "group_name" : "土木技術研究同好会",
+    "group_type" : "同好会",
+    "room_name" : "実験実習センター（都市創造実験室）前",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "モルタルを型に流し込んで作ったモアイに磁石をつけて、水槽の中に沈め、鉄製のワッシャーをつけた自作の釣竿（割り箸とたこ糸で製作予定）で釣ってもらう。\nまた、本同好会が夏に参加する「土木系学生のためのコンクリートカヌー大会（土木学会関東支部主催）」のために製作した、コンクリートカヌーを展示する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "6",
+    "project_name" : "Let'sロボコン体験",
+    "group_name" : "ロボット研究同好会",
+    "group_type" : "同好会",
+    "room_name" : "ものづくり工房製作室・ものづくり作品展示室",
+    "building_name" : "ものづくり工房",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "《ものづくり作品展示室》\n\n全国大会出場経験のある「Wingspan」、「カブ跳ムシ」、「出前スカルゴ」等の歴代ロボットの展示、\n「出前スカルゴ」や交流ロボコンで製作したロボット等の操縦体験。\n\n\n《ものづくり工房製作室》\n部活の活動風景の見学やロボコン等についての説明。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "7",
+    "project_name" : "作って遊ぼう電子工作",
+    "group_name" : "電気部",
+    "group_type" : "部活動",
+    "room_name" : "C４教室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "小中学生を対象に電子工作体験を行います。現時点の案では電子オルゴール（８種）です。\n前年以前に行ったLED点滅回路（初級）や音の高さを変える回路（上級）も部品に残りがあれば体験が可能です。\n体験は教室内の学生机と椅子を四角形に並べて、中から部員が作り方を指導します。\nまた、今年度は部誌の製作を行う予定です。電気部の活動を多くの方に知ってもらうために作成します。\n内容は、部員紹介、各部員が製作した作品の解説、４コマ漫画等を予定しています。\n印刷は電気部のプリンターで行います。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "8",
+    "project_name" : "流れの世界を見てみよう",
+    "group_name" : "流体研究室",
+    "group_type" : "研究室",
+    "room_name" : "流体実験室",
+    "building_name" : "第１研究棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "1．流れの世界を見てみよう！私たちの身のまわりにある空気や水の流れのことを「流体」といいます．\n流体の持つ性質は様々な形で応用され，豊かな社会の構築に貢献しています．\nそこで「流れの可視化」という流れを肉眼で直接観察できる方法を使って，流れの不思議な世界を見てみましょう．\n\n2．研究室公開 本研究で行っている主な工学実験・卒業研究・特別研究の内容をパネルで紹介，\nまた実験装置を使った簡単な実験も紹介する予定です．",
+    "comment" : "こちらのミスで見つからなかった",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "9",
+    "project_name" : "ものづくり作品展示",
+    "group_name" : "情報工学科2年",
+    "group_type" : "クラス",
+    "room_name" : "専攻科講義室A",
+    "building_name" : "第３研究棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "PCにディジタルI/O装置を接続し、外部機器との入出力を行い、システム全体としてボードゲームを構築します。\n実際に遊べる成果物を展示・デモンストレーションし、来場者にポスターを用いながら説明も行います。",
+    "comment" : "後に手書きイラスト",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "10",
+    "project_name" : "振動モータでおもちゃづくり",
+    "group_name" : "自動制御研究室",
+    "group_type" : "研究室",
+    "room_name" : "第一研究棟3F 310 自動制御研究室",
+    "building_name" : "第一研究棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "振動モーターを利用した小学生向けのおもちゃの作成\n\n時間を区切って1日3・4回、1回1時間程度自動制御研究室にあるロボットの展示",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "11",
+    "project_name" : "地しんの世界",
+    "group_name" : "鬼塚研究室",
+    "group_type" : "研究室",
+    "room_name" : "都市創造実験室　土質エリア",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "卒業研究中間発表までの研究をポスターで展示、ミニカーなどを用いた免震構造の模型実験をし解説を行う。また、液状化装置を使いわかりやすく液状化現象について説明する。",
+    "comment" : "後に手書きイラスト",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "12",
+    "project_name" : "光る泥団子作り",
+    "group_name" : "地盤研究同好会",
+    "group_type" : "同好会",
+    "room_name" : "都市創造レクチャー室",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "小さい子供向けの企画です．ただ泥団子を作るわけではなく，特殊な方法を使って泥団子を光らせます．子供たちにその方法を体験してもらいその作り方をレクチャーします．",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "13",
+    "project_name" : "創作物展示",
+    "group_name" : "電子創作同好会",
+    "group_type" : "同好会",
+    "room_name" : "多目的室A",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "電子創作同好会の会員が製作した創作物の展示をします。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "14",
+    "project_name" : "スピニング加工体験",
+    "group_name" : "関口研究室",
+    "group_type" : "研究室",
+    "room_name" : "計算機演習室２",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "スピニング加工体験をします。研究室にあるスピニング加工用旋盤を用いて参加者に加工体験をしてもらいます。\n材料はアルミ板を使います。手順は以下のとおりです。\n１、加工方法について説明\n２、加工材を円形に加工してもらう\n３、実際に加工してもらう\n４、必要に応じてやすりがけをする。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "15",
+    "project_name" : "木更津高専生き物ばかり",
+    "group_name" : "湯谷研究室with生研",
+    "group_type" : "研究室",
+    "room_name" : "オープンラボB",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "・栞作り\n教室に来た人に押し花や折り紙入りの栞を作ってもらって配布する。\n\n・浮標作り\n教室に来た人にペットボトル内に魚の形をしたしょうゆさしを入れてそれが圧力によって上下するおもちゃを作ってプレゼントする。\n\n・生物展示\n生き物を展示してお客さんに観察してもらったり必要に応じて説明を行う。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "16",
+    "project_name" : "ナゾトキコウジョウ",
+    "group_name" : "12-1xx有志",
+    "group_type" : "有志",
+    "room_name" : "実験実習センター内機械工場",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "高専の特色といえる工場について来場者の皆様に知ってもらうため、に工場をアピールする企画です。\n\n企画内容として、\n�機械工場の機械を使用して子供向けのおもちゃ（パズルやビー玉迷路等）を製作し、遊んでもらう。\n�先のおもちゃを制作するのに使用した機械を紹介しながら工場の見学をしてもらう。\n�工場内の機械等の紹介を行う。\n�質疑応答（もしも質問がきたら）",
+    "comment" : "後に手書きイラスト",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "17",
+    "project_name" : "電子制御のサイエンスラボ",
+    "group_name" : "5D有志",
+    "group_type" : "有志",
+    "room_name" : "第二研究棟第一実験室",
+    "building_name" : "第二研究棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "サイエンスラボはサイエンスブースとラボブースの2つのブースを展開します！\n\n[サイエンスブース]\n科学館などでみられる不思議な科学現象を高専生の技術によって再現！\n原理を楽しんで学べるサイエンスミュージアムです。\n\n[ラボブース]\n電子制御工学科における卒業研究等の成果物を展示！\n電子制御工学科では、一体どんな研究をしているのかな？",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "18",
+    "project_name" : "E科の果てまでイッてQ",
+    "group_name" : "5E",
+    "group_type" : "クラス",
+    "room_name" : "ものづくり実習室",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "電気電子工学科の各研究室を巡りながらクイズその要所でクイズを受けてもらい、正解するとスタンプをもらえる．\nあらかじめ配布してあるパンフレットのスタンプランをいっぱいにすると景品がもらえるという企画．景品はお菓子の詰め合わせを予定している．",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "19",
+    "project_name" : "電動トロッコ",
+    "group_name" : "2D",
+    "group_type" : "クラス",
+    "room_name" : "２D教室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "・b-06の電動トロッコ製作用の企画。\n・電動トロッコは300wモーター2つを用いて動作し、ライントレースによる動作か有線による動作か無線による動作かは、進行状況によって変わる。\n・安全システムについてはD科職員の関口先生と相談しながら作成する。",
+    "comment" : "B-06と同じ場所がいい",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "20",
+    "project_name" : "オリジナルはんこを作ろう！",
+    "group_name" : "さいてく（学生ワークショップ）",
+    "group_type" : "有志",
+    "room_name" : "多目的室B",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "自分で書いた絵をスキャナーで読み込み、カッティングプロッタを使って切り抜き、手作りのはんこを作ります。\nこのほかに、学生ワークショップの活動を通して各自で作成した製作物を展示します。\n\n作成の手順は以下のとおりです。\n(1) サインペンで絵を描く\n(2) スキャナで絵を読み取る\n(3) 画像に従って、カッティングプロッタで厚紙を2つ切り抜く\n(4) 2枚の紙を貼り合わせ、木のブロックに貼り付ける\n(5) ハンコを押す。必要に応じてやすりがけをする。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "A",
+    "project_number" : "21",
+    "project_name" : "文芸なごみ",
+    "group_name" : "文芸同好会",
+    "group_type" : "同好会",
+    "room_name" : "第五講義室",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "同好会メンバーの作成した冊子の配布",
+    "comment" : "仮申請書の時は、企画番号がc-17だった",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  }
+]

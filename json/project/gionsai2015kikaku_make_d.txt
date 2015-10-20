@@ -1,0 +1,145 @@
+[
+  {
+    "project_type" : "D",
+    "project_number" : "1",
+    "project_name" : "ハサミントン",
+    "group_name" : "バドミントン部",
+    "group_type" : "部活動",
+    "room_name" : null,
+    "building_name" : "食堂前",
+    "floor_number" : null,
+    "room_number" : null,
+    "contents" : "シャトルで作ったキーホルダーを販売。",
+    "category" : "グッズ販売",
+    "comment" : "バドミントン部の食品企画e-44と同じ場所",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "シャトルキーホルダー" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "D",
+    "project_number" : "2",
+    "project_name" : "駄菓子屋バボ",
+    "group_name" : "バレーボール部",
+    "group_type" : "部活動",
+    "room_name" : "E2講義室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "2",
+    "room_number" : "207",
+    "contents" : "駄菓子の販売，アトラクションの運営",
+    "category" : "アトラクション",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : null
+  },
+  {
+    "project_type" : "D",
+    "project_number" : "3",
+    "project_name" : "イラスト工房",
+    "group_name" : "美術部",
+    "group_type" : "部活動",
+    "room_name" : "D1講義室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "2",
+    "room_number" : "206",
+    "contents" : "オリジナルのしおり・ポストカード・ぬりえの作成販売。",
+    "category" : "グッズ販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "ポストカード3枚組" : 100,
+        "しおり2枚組" : 50,
+        "ぬりえ" : 300
+      }
+    ]
+  },
+  {
+    "project_type" : "D",
+    "project_number" : "4",
+    "project_name" : "キーホルダー製作所　〜あなたのために削ります〜",
+    "group_name" : "自動化機構研究室",
+    "group_type" : "研究室",
+    "room_name" : "自動化機構第一実験室",
+    "building_name" : "第1研究棟",
+    "floor_number" : "3",
+    "room_number" : "317",
+    "contents" : "研究室内にある工作機械（kitmil,HAKU）をつかって、注文されたデザインのキーホルダーを製作する。また、歯車のキーホルダーの製作販売もおこなう。",
+    "category" : "グッズ販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "ネームプレート" : 300,
+        "歯車キーホルダ" : 400
+      }
+    ]
+  },
+  {
+    "alias" : true,
+    "project_type" : {
+      "original" : "D",
+      "alias" : "C"
+    },
+    "project_number" : {
+      "original" : "5",
+      "alias" : "20"
+    }
+  },
+  {
+    "project_type" : "D",
+    "project_number" : "6",
+    "project_name" : "I’LL BE BACK",
+    "group_name" : "化学研究同好会",
+    "group_type" : "同好会",
+    "room_name" : "化学実験室",
+    "building_name" : "科学実験棟",
+    "floor_number" : "1",
+    "room_number" : "102",
+    "contents" : "人工いくら？食品サンプル？オリーブオイルから石鹸？どれをやるかは当日発表！\n※薬品や材料の関係で、年齢や人数を制限することがあります。\n※11：30〜13：30休止します※ターミネータは全く関係ありません",
+    "category" : "体験",
+    "comment" : "c-11から変更",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "石鹸" : 500,
+        "食品サンプル" : 800,
+        "人工いくら" : 0,
+        "スライム" : 0
+      }
+    ]
+  }
+]

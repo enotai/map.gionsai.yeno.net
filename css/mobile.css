@@ -1,0 +1,41 @@
+.footer{
+  position: fixed;
+}
+
+
+.footer > div > a > div.footer-icon > i{
+  margin: 6px auto;
+  font-size: 48px;
+  color: #333;
+}
+
+.footer > div.col-xs-3:hover{
+  opacity: 0.7;
+}
+
+div.footer-icon{
+  display: block;
+  text-align: center
+}
+
+
+.navbar-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  margin: 8px 10px 0 0;
+}
+
+div.timeschedule tr{
+  height: 50px;
+}
+
+.input-group-double .form-control-double:not(:first-child):not(:last-child){
+  border-radius: 0 6px 0 0;/*金額用bootstrapの上書き*/
+}
+
+.form-control-double:last-child {
+
+  border-radius: 0 0 6px 0;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "map_area_width" : 244.581,
+    "map_area_height" : 206.929,
+    "view_box" : "426.144 385.254 244.581 206.929"
+  },
+  {
+    "map_area_width" : 244.581,
+    "map_area_height" : 178.583,
+    "view_box" : "426.144 229.348 244.581 178.583"
+  },
+  {
+    "map_area_width" : 244.581,
+    "map_area_height" : 252.283,
+    "view_box" : "426.144 -0.258 244.581 252.283"
+  }
+]

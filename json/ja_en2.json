@@ -1,0 +1,43 @@
+{
+  "category" : {
+    "グッズ販売" : "goods",
+    "アトラクション" : "attraction",
+    "体験" : "experience",
+    "製作" : "make",
+    "展示" : "exhibition",
+    "発表" : "recital",
+    "OB" : "ob"
+  },
+  "group" : {
+    "部活動" : "club",
+    "同好会" : "circle",
+    "研究室" : "lab",
+    "クラス" : "class",
+    "有志" : "volunteer"
+  },
+  "place" : {
+    "総合教育棟" : "synthesis",
+    "一般研究棟" : "general",
+    "科学実験棟" : "general",
+    "第1研究棟" : "first" ,
+    "第2研究棟" : "second" ,
+    "第3研究棟" : "third" ,
+    "第1体育館" : "gym1",
+    "第2体育館" : "gym2",
+
+    "総合教育棟前" : "f_synthesis",
+    "一般研究棟前" : "f_general",
+    "第1研究棟前" : "f_first",
+    "校庭" : "ground"
+  },
+  "food" : {
+    "スナック" : "snack",
+    "麺類" : "noodle",
+    "飲み物" : "drink",
+    "パン類" : "bread",
+    "肉" : "meat",
+    "汁物" : "soup",
+    "カフェ" : "cafe",
+    "スイーツ" : "sweets"
+  }
+}

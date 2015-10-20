@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+  .row {
+    position: relative;
+  }
+
+  .navbar-header {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .navbar-brand {
+    float: none;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 14px 10px;
+    /*text-align: center;*/
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .navbar-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 40%;
+  }
+}

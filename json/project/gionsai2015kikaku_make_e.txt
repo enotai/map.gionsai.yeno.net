@@ -1,0 +1,1322 @@
+[
+  {
+    "project_type" : "E",
+    "project_number" : "1",
+    "project_name" : "○○ポテト",
+    "group_name" : "吹奏楽部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ジャガイモをゆでて味付けをして、提供します",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [null]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "2",
+    "project_name" : "理系カフェ",
+    "group_name" : "5E",
+    "group_type" : "クラス",
+    "room_name" : "１D教室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "２",
+    "room_number" : "２０６",
+    "contents" : "理系カフェは室内で行うカフェ形式の食品企画である。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "3",
+    "project_name" : "炭火焼きそば",
+    "group_name" : "水泳部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "販売する食品は主に、おしるこやフルーツポンチなどのスイーツを予定している。また、現段階では科学実験の",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "4",
+    "project_name" : "タッピー＆オカ村",
+    "group_name" : "4E有志",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "タピオカジュースの販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "5",
+    "project_name" : "パワフル焼きそば",
+    "group_name" : "柔道部",
+    "group_type" : "部活動",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "食品販売・調理\n焼きそばの販売・調理を行います。\n＜材料＞\n・麺\n・キャベツ\n・豚肉\n・ソース\n以上の材料を用いて、鉄板（炭火）で調理します。\nこれらによく火を通して、仕上げに青のりと紅ショウガを添えます。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "6",
+    "project_name" : "ベイビーカステラ",
+    "group_name" : "男子硬式テニス部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "原材料はホットケーキとほぼ同じです。その生地をたこ焼き器で焼いて販売します。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "7",
+    "project_name" : "あったかワンちゃん",
+    "group_name" : "3D有志",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ホットドックの販売、種類はプレーン、チーズ、チリの3種類で販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "8",
+    "project_name" : "茶屋 うちだ",
+    "group_name" : "5M",
+    "group_type" : "クラス",
+    "room_name" : "3M教室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "３",
+    "room_number" : "３０６",
+    "contents" : "カフェ コスプレ喫茶 コスプレをしてパンケーキ及びフライドアイス、コーヒー、紅茶の販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "9",
+    "project_name" : "Wurststube7",
+    "group_name" : "ドイツ研究同好会",
+    "group_type" : "同好会",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ドイツ風ソーセージの販売、ハリボー（ドイツ発祥のグミ）の販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "10",
+    "project_name" : "M科ナルド",
+    "group_name" : "M科男有志",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "食品販売\n主にチキンナゲット・フライドポテトの販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "11",
+    "project_name" : "ちゃんこ",
+    "group_name" : "島崎部屋有志",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "材料（人参、大根、こんにゃく、白菜）を一口サイズにカットし、煮込んで味付けをし、ちゃんことして売る。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "12",
+    "project_name" : "チキ☆チェケ☆ステーキ",
+    "group_name" : "4E有志",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "鶏肉を鍋でゆでて、しっかり火を通したのち両面を焼く。そしてパックに詰めて割り箸とともに提供する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "13",
+    "project_name" : "俺のチョコバナナとわたあめ",
+    "group_name" : "ソフトテニス部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "チョコバナナは、チョコを溶かしてバナナにかけてその上にカラースプレーをふりかける。綿あめは、綿あめ機にザラメをいれて綿あめを作る。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "14",
+    "project_name" : "ラグビー部のからあげ",
+    "group_name" : "ラグビー部",
+    "group_type" : "部活動",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "かららあげ粉を溶かした水に鶏肉を浸け、油で揚げる。これを容器に５〜６個入れ、爪楊枝をつけて販売する。\n容器は紙コップを使う。値段は１５０円とする。\nガスコンロは三台使用し、フライパンで油を熱し、鶏肉を揚げる。コンロは長机の上に置く。油が前方に飛ばない\nように、コンロの前に壁を立てる。\n調理者はエプロンと頭巾を着用する。調理は調理者が交代でする。\n企画終了後、油はトイレットペーパーで吸い取り処分する。鶏肉が余った場合は、なるべく食べずに処分する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "15",
+    "project_name" : "5Dbar",
+    "group_name" : "5D有志",
+    "group_type" : "有志",
+    "room_name" : "３C教室",
+    "building_name" : "総合教育棟",
+    "floor_number" : "４",
+    "room_number" : "４０２",
+    "contents" : "カフェ・バーのように、コーヒー・ジュース等の飲み物と、パウンドケーキ・クッキー等の食べ物を販売する。教室の中に机を配置して、お客に中で飲食してもらえるようにする。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "16",
+    "project_name" : "チャリ部のおやつトースト",
+    "group_name" : "自転車部",
+    "group_type" : "部活動",
+    "room_name" : "学食前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "卵，牛乳，砂糖，バニラエッセンスをボウルに入れて混ぜ，卵液を作る。\n食パンを浸し、フライパンで加熱する。（食材はクーラーボックスなどで温度管理はしっかりとします。\n質問なのですがバターは使用可能でしょうか？使えない場合はマーガリンで代用しようと思っています）",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "17",
+    "project_name" : "caf_ 泉",
+    "group_name" : "D5有志",
+    "group_type" : "有志",
+    "room_name" : "共通ゼミ室B",
+    "building_name" : "第２研究棟",
+    "floor_number" : "１",
+    "room_number" : "",
+    "contents" : "珈琲を飲んでもらいつつ，卒研の成果展示，発表の場とする．",
+    "comment" : "場所がとれなければ企画取り消し",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "18",
+    "project_name" : "赤点★低空レストラン",
+    "group_name" : "M科留年勢",
+    "group_type" : "有志",
+    "room_name" : "教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "角煮まんじゅうをメインとした食品販売。サイドメニューも充実させる予定。まんじゅうは冷凍のものを購入予定で、調理には蒸し器を使用する。角煮は豚バラブロックをキロ単位で購入し、販売当日に圧力鍋で調理。",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "19",
+    "project_name" : "PACO'S キッチン",
+    "group_name" : "料理研(非公認)",
+    "group_type" : "有志",
+    "room_name" : "一般教育棟、吹き抜け付近",
+    "building_name" : "一般研究棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "オリジナル溢れるスイーツや食べ物やドリンクを販売。その場で作りながら販売する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "20",
+    "project_name" : "ハリー・ポテッターと不死鳥の唐揚げ",
+    "group_name" : "囲碁部",
+    "group_type" : "部活動",
+    "room_name" : "総合教育棟前（校門側）",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "業務スーパーで購入した冷凍ポテト及び冷凍唐揚げを、当日に油で揚げて販売する。商品は紙コップに詰めて、爪楊枝を添える。味付けは塩のみ。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "21",
+    "project_name" : "抹茶屋",
+    "group_name" : "3Ｊ有志",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "当日調理した料理を提供。容器は紙コップ、紙皿を予定。調理はホットプレート等を使用。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "22",
+    "project_name" : "ベルギー料理\"フリッツ！！\"",
+    "group_name" : "寮生３年有志",
+    "group_type" : "有志",
+    "room_name" : "正門前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ベルギー料理フリッツの調理と販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "23",
+    "project_name" : "ザ・絹美人♪",
+    "group_name" : "DJ2有志",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "豆腐を使った料理の販売（湯豆腐、冷奴、揚げ出し豆腐など）、飲み物の販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "24",
+    "project_name" : "フライドポテトヘッド",
+    "group_name" : "５Mのおデブちゃん",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "業務スーパーで購入した冷凍のポテトを油で揚げて販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "25",
+    "project_name" : "mochi ☆ caf_",
+    "group_name" : "5D，5E女子学生の会",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟2F",
+    "building_name" : "総合教育棟",
+    "floor_number" : "２",
+    "room_number" : "",
+    "contents" : "わらび餅（きな粉・黒蜜、抹茶きな粉）、緑茶セット、水まんじゅうを販売する。\n部屋に椅子や机を配置し、購入したものを食べられるスペースをつくる。\n空いた場所で、水風船の手作り体験（有料）を行う。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "26",
+    "project_name" : "",
+    "group_name" : "",
+    "group_type" : "",
+    "room_name" : "",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "",
+    "comment" : "企画キャンセル",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "27",
+    "project_name" : "もつの惑星　創世記",
+    "group_name" : "天文同好会",
+    "group_type" : "同好会",
+    "room_name" : "中庭",
+    "building_name" : "一般研究棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "材料（もつ、大根、こんにゃく、人参、ゴボウ、しょうが）を事前に準備し、当日醤油、砂糖等で味付けして煮込んだものを販売。量は使い捨てのお椀に一杯分。煮込む時間は２時間程度。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "28",
+    "project_name" : "拉麺　怎__",
+    "group_name" : "中国語� 有志",
+    "group_type" : "有志",
+    "room_name" : "学食前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "豚骨ラーメンの販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "29",
+    "project_name" : "串Ya-Ya-yah！",
+    "group_name" : "5C",
+    "group_type" : "クラス",
+    "room_name" : "総合教育棟前（第一講義室前）",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "串焼き（肉，魚），焼きとうもろこしなどの販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "30",
+    "project_name" : "とこちゃん自慢のチュロス",
+    "group_name" : "バスケットボール部",
+    "group_type" : "部活動",
+    "room_name" : "学食前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "コストコで買ってきた冷凍チュロスをレンジで解凍して販売する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "31",
+    "project_name" : "陸上部のたこ焼き屋さん",
+    "group_name" : "陸上部",
+    "group_type" : "部活動",
+    "room_name" : "学食前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "当日にたこ焼きの材料を購入し、調理、販売する",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "32",
+    "project_name" : "hot.dog",
+    "group_name" : "4J有志",
+    "group_type" : "有志",
+    "room_name" : "中庭",
+    "building_name" : "一般研究棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ホットドックの作成及び販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "33",
+    "project_name" : "豚汁だよ",
+    "group_name" : "有志",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "豚汁の作成、販売。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "34",
+    "project_name" : "うどんでい",
+    "group_name" : "5J有志",
+    "group_type" : "有志",
+    "room_name" : "学食前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "うどんを販売する．",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "35",
+    "project_name" : "肉丸",
+    "group_name" : "３年有志",
+    "group_type" : "有志",
+    "room_name" : "中庭",
+    "building_name" : "一般研究棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "たこ焼きのタコの代わりに甘辛く味付けした肉を使用した食品です。６個入り、８個入りの販売を予定しています。\n\n\n〜それは、まったく新しい新感覚の食べ物〜\n甘辛く煮つけた芳醇な某国産肉を、やわらかな天然由来の生地で包み本格電流で丸く焼き上げました。\nこれでもかと肉汁を滴らせ、堂々の「肉丸」凱旋です!!\n大満足のボリュームで個数は6個、8個、と選べる２パターンあります。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "36",
+    "project_name" : "",
+    "group_name" : "",
+    "group_type" : "",
+    "room_name" : "",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "",
+    "comment" : "未提出",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "37",
+    "project_name" : "豚汁",
+    "group_name" : "4E",
+    "group_type" : "クラス",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "材料を買い、豚汁を作り、来場者に販売する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "38",
+    "project_name" : "豚棒一閃!!",
+    "group_name" : "剣道部",
+    "group_type" : "部活動",
+    "room_name" : "中庭",
+    "building_name" : "一般研究棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "一度ボイルしたソーセージを焼いて売る",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "39",
+    "project_name" : "",
+    "group_name" : "",
+    "group_type" : "",
+    "room_name" : "",
+    "building_name" : "",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "",
+    "comment" : "未提出",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "40",
+    "project_name" : "食戟の奏真 2nd",
+    "group_name" : "寮友会",
+    "group_type" : "有志",
+    "room_name" : "第一講義室前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "寮友会のメンバーで、揚げたナゲットに数種類の味をつけて販売する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "41",
+    "project_name" : "パンdeスープ",
+    "group_name" : "3C",
+    "group_type" : "クラス",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "パンを器に見立てて、スープやアイスクリームを盛ったメインとしても、デザートとしても食べられるお食事パンです！",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "42",
+    "project_name" : "蛋餅　好吃_？！",
+    "group_name" : "中国語研究会(仮)",
+    "group_type" : "有志",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "食品販売をします。蛋餅という食べ物を販売します。蛋餅は台湾の民衆的な食べ物でよく食べられています。",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "43",
+    "project_name" : "ホットアイス",
+    "group_name" : "4D雄志",
+    "group_type" : "有志",
+    "room_name" : "正門前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "アイスをホットケーキでくるんだものを食べやすいようして販売します",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "44",
+    "project_name" : "ハサミントン",
+    "group_name" : "バドミントン部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "ホットサンドを調理。材料は一昨年同じく八枚切り食パン、焼いたベーコン、マスタード、コショウ、マーガリンを使用する。食パンは半分に切り、焼く。また茹でたパスタをナポリタン風にして、焼いたパンに挟む。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "45",
+    "project_name" : "餃子の玉将",
+    "group_name" : "ゴルフ部",
+    "group_type" : "部活動",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "手作り焼き餃子の販売",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "46",
+    "project_name" : "タピオカ販売",
+    "group_name" : "しっとこ隊",
+    "group_type" : "同好会",
+    "room_name" : "コミュニティールームA",
+    "building_name" : "一般研究棟",
+    "floor_number" : "１",
+    "room_number" : "",
+    "contents" : "・タピオカジュースを中心として、他数種類のジュースを販売。\n（室内での希望が通った場合は、席を数席用意して簡易の自由休憩スペースを用意する予定。）\n\n・タピオカジュースは4〜5種類を予定",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "47",
+    "project_name" : "ミスド〜mistake Donut〜",
+    "group_name" : "ホッケー部",
+    "group_type" : "部活動",
+    "room_name" : "正門付近",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "数種類のドーナツを販売致します。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "48",
+    "project_name" : "水あめ",
+    "group_name" : "卓球部",
+    "group_type" : "部活動",
+    "room_name" : "食堂前広場",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "水あめをモナカで挟んだり割り箸に付けて販売する。水あめは既製品を使用する。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "49",
+    "project_name" : "天下第一味",
+    "group_name" : "留学生",
+    "group_type" : "有志",
+    "room_name" : "屋外　一般研究棟",
+    "building_name" : "学食前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "マレーシアの食べ物を中心として売ります。",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "50",
+    "project_name" : "スPあげッテイ",
+    "group_name" : "サッカー部４年有志",
+    "group_type" : "有志",
+    "room_name" : "教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "パスタを油で揚げて、選んでもらった味付けをして提供",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "51",
+    "project_name" : "鳥々苑",
+    "group_name" : "寮生有志",
+    "group_type" : "有志",
+    "room_name" : "工場棟前",
+    "building_name" : "実験実習センター",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "一度ボイルした鶏肉を炭火で焼いて焼き鳥として販売する。",
+    "comment" : "提出遅れ",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "52",
+    "project_name" : "パーマ野郎の焼き鳥屋さん",
+    "group_name" : "5J有志",
+    "group_type" : "有志",
+    "room_name" : "総合教育棟前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "room_number" : "",
+    "contents" : "5J有志による焼き鳥の販売．",
+    "comment" : "イラスト未提出",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  },
+  {
+    "project_type" : "E",
+    "project_number" : "53",
+    "project_name" : "木下さん家の肉フェス",
+    "group_name" : "専攻科",
+    "group_type" : "有志",
+    "room_name" : "第一講義室前",
+    "building_name" : "総合教育棟前",
+    "floor_number" : "",
+    "contents" : "焼き鳥を主とし数種類の肉を炭火等で焼き、販売。",
+    "comment" : "",
+    "coordinate" : [
+      {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    ],
+    "item" : [
+      {
+        "" : 100
+      }
+    ]
+  }
+]

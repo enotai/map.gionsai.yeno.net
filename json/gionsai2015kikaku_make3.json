@@ -1,0 +1,1837 @@
+[
+  {
+    "project_type": "A",
+    "project_number": "1",
+    "project_name": "ものづくりカフェ",
+    "group_name": "D4の愉快な仲間たち",
+    "group_type": "有志",
+    "building_name": "第2研究棟",
+    "room_name": "ものづくり室B(プロトタイピング室)",
+    "room_number": "101",
+    "category": "製作",
+    "contents": "電子工作体験,展示,応用\n電子制御工学科の宣伝\n参加者へのお茶うけ程度のお菓子の提供\n\n･はんだ付けをして回路を作ってみる(持ち帰り可能)\n･簡単なプログラムを組んでLEDを思い通りに光らせる\n･なぜなに相談コーナー\n→高専生に自由に質問できる\n･その他技術系展示･体験",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "2",
+    "project_name": "1\/150の世界へようこそ!!",
+    "group_name": "模型愛好会",
+    "group_type": "有志",
+    "building_name": "一般研究棟",
+    "room_name": "共通ゼミ室A",
+    "room_number": "202",
+    "category": "展示",
+    "contents": "Nゲージのジオラマ展示、マイコンを用いた模型列車運転",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "3",
+    "project_name": "自動化研展示",
+    "group_name": "自動化機構研究室",
+    "group_type": "研究室",
+    "building_name": "第1研究棟",
+    "room_name": "自動化機構研究室",
+    "room_number": "317",
+    "category": "展示",
+    "contents": "研究室内で制作物、研究内容などを公開して、研究室の特色をアピールする。電子工作、FA、LEGO、プラレールに機械工学科の特色を盛り込む。\nまた、CNC旋盤を使ったアクリル製逆さゴマの制作過程を実際に見てもらい、いくつか配布する。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "4",
+    "project_name": "鉛筆オルガンをつくろう！",
+    "group_name": "D5有志",
+    "group_type": "有志",
+    "building_name": "第2研究棟",
+    "room_name": "第2研究棟第2実験室",
+    "room_number": "313",
+    "category": "製作",
+    "contents": "ブレッドボードを用いて電子工作(電子オルガン作成)をする．",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "5",
+    "project_name": "モアイ釣り・コンクリートカヌー展示",
+    "group_name": "土木技術研究同好会",
+    "group_type": "同好会",
+    "building_name": "実験実習センター",
+    "room_name": "実験実習センター（都市創造実験室）前",
+    "room_number": null,
+    "category": "製作",
+    "contents": "モルタルを型に流し込んで作ったモアイに磁石をつけて、水槽の中に沈め、鉄製のワッシャーをつけた自作の釣竿（割り箸とたこ糸で製作予定）で釣ってもらう。\nまた、本同好会が夏に参加する「土木系学生のためのコンクリートカヌー大会（土木学会関東支部主催）」のために製作した、コンクリートカヌーを展示する。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "6",
+    "project_name": "Let'sロボコン体験",
+    "group_name": "ロボット研究同好会",
+    "group_type": "同好会",
+    "building_name": "ものづくり工房",
+    "room_name": "ものづくり工房製作室・ものづくり作品展示室",
+    "room_number": null,
+    "category": "展示",
+    "contents": "《ものづくり作品展示室》\n\n全国大会出場経験のある「Wingspan」、「カブ跳ムシ」、「出前スカルゴ」等の歴代ロボットの展示、\n「出前スカルゴ」や交流ロボコンで製作したロボット等の操縦体験。\n\n\n《ものづくり工房製作室》\n部活の活動風景の見学やロボコン等についての説明。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "7",
+    "project_name": "作って遊ぼう電子工作",
+    "group_name": "電気部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "E4講義室",
+    "room_number": "408",
+    "category": "製作",
+    "contents": "小中学生を対象に電子工作体験を行います。現時点の案では電子オルゴール（8種）です。\n前年以前に行ったLED点滅回路（初級）や音の高さを変える回路（上級）も部品に残りがあれば体験が可能です。\n体験は教室内の学生机と椅子を四角形に並べて、中から部員が作り方を指導します。\nまた、今年度は部誌の製作を行う予定です。電気部の活動を多くの方に知ってもらうために作成します。\n内容は、部員紹介、各部員が製作した作品の解説、4コマ漫画等を予定しています。\n印刷は電気部のプリンターで行います。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "8",
+    "project_name": "流れの世界を見てみよう",
+    "group_name": "流体研究室",
+    "group_type": "研究室",
+    "building_name": "第1研究棟",
+    "room_name": "流体実験室",
+    "room_number": "102",
+    "category": "体験",
+    "contents": "1．流れの世界を見てみよう！私たちの身のまわりにある空気や水の流れのことを「流体」といいます．\n流体の持つ性質は様々な形で応用され，豊かな社会の構築に貢献しています．\nそこで「流れの可視化」という流れを肉眼で直接観察できる方法を使って，流れの不思議な世界を見てみましょう．\n\n2．研究室公開 本研究で行っている主な工学実験・卒業研究・特別研究の内容をパネルで紹介，\nまた実験装置を使った簡単な実験も紹介する予定です．",
+    "comment": "こちらのミスで見つからなかった",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "9",
+    "project_name": "ものづくり作品展示",
+    "group_name": "情報工学科2年",
+    "group_type": "クラス",
+    "building_name": "第3研究棟",
+    "room_name": "専攻科講義室A",
+    "room_number": "102",
+    "category": "展示",
+    "contents": "PCにディジタルI\/O装置を接続し、外部機器との入出力を行い、システム全体としてボードゲームを構築します。\n実際に遊べる成果物を展示・デモンストレーションし、来場者にポスターを用いながら説明も行います。",
+    "comment": "後に手書きイラスト",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "10",
+    "project_name": "振動モータでおもちゃづくり",
+    "group_name": "自動制御研究室",
+    "group_type": "研究室",
+    "building_name": "第1研究棟",
+    "room_name": "自動制御研究室",
+    "room_number": "315",
+    "category": "製作",
+    "contents": "振動モーターを利用した小学生向けのおもちゃの作成\n\n時間を区切って1日3・4回、1回1時間程度自動制御研究室にあるロボットの展示",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "11",
+    "project_name": "地しんの世界",
+    "group_name": "鬼塚研究室",
+    "group_type": "研究室",
+    "building_name": "実験実習センター",
+    "room_name": "都市創造実験室 土質エリア",
+    "room_number": null,
+    "category": "展示",
+    "contents": "卒業研究中間発表までの研究をポスターで展示、ミニカーなどを用いた免震構造の模型実験をし解説を行う。また、液状化装置を使いわかりやすく液状化現象について説明する。",
+    "comment": "後に手書きイラスト",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "12",
+    "project_name": "光る泥団子作り",
+    "group_name": "地盤研究同好会",
+    "group_type": "同好会",
+    "building_name": "実験実習センター",
+    "room_name": "都市創造レクチャー室",
+    "room_number": "null",
+    "category": "製作",
+    "contents": "小さい子供向けの企画です．ただ泥団子を作るわけではなく，特殊な方法を使って泥団子を光らせます．子供たちにその方法を体験してもらいその作り方をレクチャーします．",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "13",
+    "project_name": "創作物展示",
+    "group_name": "電子創作同好会",
+    "group_type": "同好会",
+    "building_name": "講義棟C",
+    "room_name": "多目的室A",
+    "room_number": null,
+    "category": "展示",
+    "contents": "電子創作同好会の会員が製作した創作物の展示をします。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "14",
+    "project_name": "スピニング加工体験",
+    "group_name": "関口研究室",
+    "group_type": "研究室",
+    "building_name": "第2研究棟",
+    "room_name": "計算機演習室2",
+    "room_number": "202",
+    "category": "製作",
+    "contents": "スピニング加工体験をします。研究室にあるスピニング加工用旋盤を用いて参加者に加工体験をしてもらいます。\n材料はアルミ板を使います。手順は以下のとおりです。\n1、加工方法について説明\n2、加工材を円形に加工してもらう\n3、実際に加工してもらう\n4、必要に応じてやすりがけをする。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "15",
+    "project_name": "木更津高専生き物ばかり",
+    "group_name": "湯谷研究室with生研",
+    "group_type": "研究室",
+    "building_name": "第1研究棟",
+    "room_name": "オープンラボB",
+    "room_number": "208",
+    "category": "展示",
+    "contents": "・栞作り\n教室に来た人に押し花や折り紙入りの栞を作ってもらって配布する。\n\n・浮標作り\n教室に来た人にペットボトル内に魚の形をしたしょうゆさしを入れてそれが圧力によって上下するおもちゃを作ってプレゼントする。\n\n・生物展示\n生き物を展示してお客さんに観察してもらったり必要に応じて説明を行う。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "16",
+    "project_name": "ナゾトキコウジョウ",
+    "group_name": "12-1xx有志",
+    "group_type": "有志",
+    "building_name": "実験実習センター",
+    "room_name": "実験実習センター内機械工場",
+    "room_number": null,
+    "category": "展示",
+    "contents": "高専の特色といえる工場について来場者の皆様に知ってもらうため、に工場をアピールする企画です。\n\n企画内容として、\n�機械工場の機械を使用して子供向けのおもちゃ（パズルやビー玉迷路等）を製作し、遊んでもらう。\n�先のおもちゃを制作するのに使用した機械を紹介しながら工場の見学をしてもらう。\n�工場内の機械等の紹介を行う。\n�質疑応答（もしも質問がきたら）",
+    "comment": "後に手書きイラスト",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "17",
+    "project_name": "電子制御のサイエンスラボ",
+    "group_name": "5D有志",
+    "group_type": "有志",
+    "building_name": "第2研究棟",
+    "room_name": "第2研究棟 第1実験室",
+    "room_number": "304,305",
+    "category": "展示",
+    "contents": "サイエンスラボはサイエンスブースとラボブースの2つのブースを展開します！\n\n[サイエンスブース]\n科学館などでみられる不思議な科学現象を高専生の技術によって再現！\n原理を楽しんで学べるサイエンスミュージアムです。\n\n[ラボブース]\n電子制御工学科における卒業研究等の成果物を展示！\n電子制御工学科では、一体どんな研究をしているのかな？",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "18",
+    "project_name": "E科の果てまでイッてQ",
+    "group_name": "5E",
+    "group_type": "クラス",
+    "building_name": "実験実習センター",
+    "room_name": "ものづくり実習室",
+    "room_number": null,
+    "category": "体験",
+    "contents": "電気電子工学科の各研究室を巡りながらクイズその要所でクイズを受けてもらい、正解するとスタンプをもらえる．\nあらかじめ配布してあるパンフレットのスタンプランをいっぱいにすると景品がもらえるという企画．景品はお菓子の詰め合わせを予定している．",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "19",
+    "project_name": "電動トロッコ",
+    "group_name": "2D",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "D2講義室",
+    "room_number": "208",
+    "category": "アトラクション",
+    "contents": "・b-06の電動トロッコ製作用の企画。\n・電動トロッコは300wモーター2つを用いて動作し、ライントレースによる動作か有線による動作か無線による動作かは、進行状況によって変わる。\n・安全システムについてはD科職員の関口先生と相談しながら作成する。",
+    "comment": "B-05と関連する企画",
+    "item": null
+  },
+  {
+    "project_type": "A",
+    "project_number": "20",
+    "project_name": "オリジナルはんこを作ろう！",
+    "group_name": "さいてく（学生ワークショップ）",
+    "group_type": "有志",
+    "building_name": "講義棟C",
+    "room_name": "多目的室B",
+    "room_number": null,
+    "category": "製作",
+    "contents": "自分で書いた絵をスキャナーで読み込み、カッティングプロッタを使って切り抜き、手作りのはんこを作ります。\nこのほかに、学生ワークショップの活動を通して各自で作成した製作物を展示します。\n\n作成の手順は以下のとおりです。\n(1) サインペンで絵を描く\n(2) スキャナで絵を読み取る\n(3) 画像に従って、カッティングプロッタで厚紙を2つ切り抜く\n(4) 2枚の紙を貼り合わせ、木のブロックに貼り付ける\n(5) ハンコを押す。必要に応じてやすりがけをする。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "1",
+    "project_name": "M1を探せ！",
+    "group_name": "機械工学科1年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "E3講義室",
+    "room_number": "406",
+    "category": "アトラクション",
+    "contents": "1Mの教室に探す人の写真、または特徴を書いた張り紙を出しておいて、来場者はそのヒントを頼りに学内を散歩しながらその人を探す．\n見つけたらその人に声をかけてくれれば、「見つけた証拠品」をもらえ、その証拠品を1M教室にいる係員に渡せば景品（粗品，文具やお菓子など）がもらえるというもの。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "2",
+    "project_name": "めっちゃ暗いダンボール迷路",
+    "group_name": "機械工学科2年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "M4講義室",
+    "room_number": "308",
+    "category": "アトラクション",
+    "contents": "恐怖の要素を取り入れた迷路。床などに障害物を置く。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "3",
+    "project_name": "Electrical Communication Space〜人・心・電気〜",
+    "group_name": "電気電子工学科1年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "E1講義室",
+    "room_number": "205",
+    "category": "展示,体験",
+    "contents": "Electrical Communication Space〜人・心・電気〜は、全部で四つのセクションで構成する。\n1.電気電子工学概論の実習で製作した作品を展示し、実際に作品を使った実演を行う。そして電気電子工学科について知ってもらうとともに、どんなものを実習で作っているのか、来客者に見てもらう。\n2.一般向けの電子工作スペース。電気電子工学に興味を持っている小、中学生、一般の方と簡単で、安全に製作できる回路などを、一緒に製作する。その際、技術的な補助として学生が手伝ってあげたりする。\n3.技術力の低い人でも電子工作を楽しんでもらえるように、電池や電気で動く、小さなラジコンカー等にパーツを付けて、実際に競争をしたりするスペース。\n4.文化祭企画やクラスに関連するコマ撮り動画やMMDを再生する（付属企画）。\n以上のセクションから、どんな人でも楽しんでもらえる居心地のよい空間を作って、楽しんでもらい、同時に、電気電子工学科では、どんなものを製作しているのか見てもらうのが目的である。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "4",
+    "project_name": "Eラジ",
+    "group_name": "電気電子工学科2年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "マルチメディア講義室A",
+    "room_number": "203",
+    "category": "展示",
+    "contents": "インターネットラジオを使い、祇園祭の企画や高専、Ｅ科の宣伝、ゲストを招いた雑談等を行う。",
+    "comment": "イラストは直接提出",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "5",
+    "project_name": "映像企画 1Digital show",
+    "group_name": "電子制御工学科1年",
+    "group_type": "クラス",
+    "building_name": "科学研究棟",
+    "room_name": "階段教室",
+    "room_number": "103",
+    "category": "展示",
+    "contents": "映画を撮影して、それを上映します。現時点では複数作品作る予定です。",
+    "comment": "イラストは手渡し",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "6",
+    "project_name": "おかま屋敷〜恐怖の洞窟脱出編〜",
+    "group_name": "電子制御工学科2年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "D2講義室",
+    "room_number": "208",
+    "category": "アトラクション",
+    "contents": "・昨年の続編となるストーリを持ったおばけ（おかま）屋敷でa-19の電動トロッコと組みあわせ、高専らしさをだす。\n・予定している仕掛けは、おかまが追いかけるのはもちろん、バランスボールを使った岩石が後ろから追いかけてきたり、フラッシュ、風など\n・企画の進行状況にもよるが、もし余裕があれば電子創作の光線銃をもちいておかまを倒すという仕掛けも導入したいと考えている。\n・待機列にモニターを設置し、PVやトロッコの動作原理、高専の1年間についてを流し、待機中も客を楽しませる。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "7",
+    "project_name": "ゲームセンター",
+    "group_name": "情報工学科1年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "J1講義室",
+    "room_number": "302",
+    "category": "アトラクション",
+    "contents": "・概要\n入場時にコインを渡し、様々なゲームをしてもらって、コインを増やしてもらう。\n\n・コインについて\nゲームをする対価として払うものでもある。またゲームの報酬でもらえるものでもある。\n最終的にそのコインの枚数に応じて様々な景品と交換をすることが可能である。\n\n・コインと景品の交換比重について\n入場時には10枚より少ない枚数から始めてもらう。\n簡単にできるゲームには、ローリスク・ローリターン¥\n難しかったり、時間のかかるものに関しては、ハイリスク・ハイリターンで交換する。\n\n・ゲームについて\n今現在1Jで考えているゲーム\nトランプゲーム（3台）・射的（ダーツ？）・ビンゴ・ルーレット（数当て？）・その他...etc\n\n・景品について\n主に祇園祭には学生が来ることが予想されるため、主な景品は、\nお菓子、文房具、便利な道具、、、などである。\n最低交換景品は10コインくらいでうまい棒\n最高交換景品は100コインくらいを想定している",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "8",
+    "project_name": "Presentation of NITKC",
+    "group_name": "情報工学科2年",
+    "group_type": "クラス",
+    "building_name": "第3研究棟",
+    "room_name": "専攻科講義室B",
+    "room_number": "102",
+    "category": "展示",
+    "contents": "木更津高専での生活についてのプレゼンテーションを行います。プレゼンテーションが終わって次のプレゼンテーションを行う間の時間には自分たちで作った面白ムービーなどを上映する予定です。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "9",
+    "project_name": "お化け屋敷",
+    "group_name": "環境都市工学科1年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "C2講義室",
+    "room_number": "303",
+    "category": "アトラクション",
+    "contents": "教室を段ボールなどで区切り道を作って、スタートからゴールまでの間で、たくさんのお化けによるスリルを楽しんでもらう企画です。教室全体は暗くします。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "B",
+    "project_number": "10",
+    "project_name": "さごうのうごさ",
+    "group_name": "環境都市工学科2年",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "C4講義室",
+    "room_number": "404",
+    "category": "アトラクション",
+    "contents": "ヨーヨー釣りや射的、輪投げなどで得点を稼ぎ、稼いだ得点に応じて商品などと交換します。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "1",
+    "project_name": "ピアノ発表会",
+    "group_name": "ピアノ同好会",
+    "group_type": "同好会",
+    "building_name": "講義棟B",
+    "room_name": "第6講義室",
+    "room_number": null,
+    "category": "発表",
+    "contents": "ピアノの発表会",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "2",
+    "project_name": "野球部OB戦",
+    "group_name": "硬式野球部",
+    "group_type": "部活動",
+    "building_name": "野球場",
+    "room_name": "屋外:野球場",
+    "room_number": null,
+    "category": "OB",
+    "contents": "・木更津高専硬式野球部のOBを招いて在校生と試合を行う.\n\n・在校生は硬式ボールを投げ,軟式ボールを打つ.\n・OBは軟式ボールを投げ,硬式ボールを打つ.\n・日程は1日目の1時に試合開始.",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "3",
+    "project_name": "未の茶会",
+    "group_name": "茶道部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "D4講義室",
+    "room_number": "407",
+    "category": "展示",
+    "contents": "お客様にお菓子をお出しし、お茶を振る舞います。基本的には一人がお点前をし終わったら次の人がお点前をする\nというローテーション方式です。\n一回のお点前で約三十分かかります。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "4",
+    "project_name": "書道作品展",
+    "group_name": "書道同好会",
+    "group_type": "同好会",
+    "building_name": "総合教育棟",
+    "room_name": "D3講義室",
+    "room_number": "405",
+    "category": "展示",
+    "contents": "書道作品の展示を行う。また書道の実演等も行う予定。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "5",
+    "project_name": "C.A.Crew〜Dance showcase2015〜",
+    "group_name": "C.A.Crew(ダンス同好会)",
+    "group_type": "同好会",
+    "building_name": "第2体育館",
+    "room_name": "第2体育館",
+    "room_number": null,
+    "category": "発表",
+    "contents": "両日とも14：00から第2体育館の半分を借していただき、ダンスの発表を行う。\nスピーカーで曲を流し、体育館に衣装替えのスペースを設ける。\n事前に呼び込み活動を行い、発表時間は1時間前後の予定。できればスピーカーと照明機材を借りたい。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "7",
+    "project_name": "エコランカー展示してます。",
+    "group_name": "自動車部",
+    "group_type": "部活動",
+    "building_name": "ガレージ",
+    "room_name": "ガレージ周辺",
+    "room_number": null,
+    "category": "展示",
+    "contents": "部活動で制作した部品や車体、部員所有の自動車史において貴重な部品などの展示。部員が展示の近くに待機し解説や、安全を確認した上でエンジンをかけたりパイロンで囲まれた中で部員が短い距離をデモ走行を行う。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "8",
+    "project_name": "吹奏楽部コンサート",
+    "group_name": "吹奏楽部",
+    "group_type": "部活動",
+    "building_name": "第2体育館",
+    "room_name": "第2体育館",
+    "room_number": null,
+    "category": "発表",
+    "contents": "吹奏楽部による演奏を行います。三曲か四曲の演奏を行う予定です。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "9",
+    "project_name": "いざ歴研",
+    "group_name": "歴史研究同好会",
+    "group_type": "同好会",
+    "building_name": "一般研究棟",
+    "room_name": "コミュニティールームB",
+    "room_number": "201",
+    "category": "展示",
+    "contents": "冊子配布\n文集を作成し、お客さんに無料で頒布する。文集作成は顧問の先生にお手伝いをお願いするが、とじる作業などは\nメンバー全員で行う。\nテーマは各で決め、同好会として統一はしない。文章の内容は、基本的に歴史と関連のあるものとする。\n歴史に関わる道具(個人製作の甲冑など)を展示する。\n窃盗のないよう、シフト分けを確実に行い企画場所を無人にしない。\n文集の感想など、お客さんに自由に書いてもらうためのスペースを設ける。\n他企画の移動販売は企画場所に入らせない。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "10",
+    "project_name": "TRPG前線基地(仮)",
+    "group_name": "RPG研究同好会",
+    "group_type": "同好会",
+    "building_name": "総合教育棟",
+    "room_name": "J4講義室",
+    "room_number": "403",
+    "category": "体験",
+    "contents": "TRPG及びボードゲームの紹介・体験を行う。紹介は口頭での簡単なものと文書での詳しいものを用意する予定。体験は学生机を6個1卓として4、5卓用意し、卓毎に体験用のボードゲームやTRPGを用意する。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "12",
+    "project_name": "自作コンピューターゲーム体験",
+    "group_name": "3年有志",
+    "group_type": "有志",
+    "building_name": "第三研究棟",
+    "room_name": "計算機演習室",
+    "room_number": "301",
+    "category": "体験",
+    "contents": "高専で学習したプログラミングの発展として、オリジナルゲームを作成しました。この企画では、そのゲームがプレイできます。\n企画に来ていただいた方には、ゲームの実行データが入ったCDを配布します。\nプログラミングやゲームに興味のある方、ない方問わず、是非いらしてください。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "13",
+    "project_name": "大人のコンサート",
+    "group_name": "教職員・学生有志",
+    "group_type": "有志",
+    "building_name": "講義棟B",
+    "room_name": "第6講義室",
+    "room_number": "null",
+    "category": "発表",
+    "contents": "教職員・学生有志によるコンサート\n楽器演奏(ギター・ピアノ等)を中心にしたクラシック系音楽コンサート\n10月25日(日)の午後、1時間程度の予定",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "14",
+    "project_name": "華道部展示",
+    "group_name": "華道部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "D4講義室",
+    "room_number": "407",
+    "category": "展示",
+    "contents": "華道部による生花の展示",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "15",
+    "project_name": "祇園祭LIVE2015 -木更津大作戦-",
+    "group_name": "軽音部",
+    "group_type": "部活動",
+    "building_name": "第1体育館",
+    "room_name": "第1体育館",
+    "room_number": null,
+    "category": "発表",
+    "contents": "軽音部員による演奏発表します。王道のロックバンドから複数のDJの出演と音楽性豊かな演出を予定しています。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "16",
+    "project_name": "K.N.C.T Photo Studio",
+    "group_name": "写真部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "M1講義室",
+    "room_number": "305",
+    "category": "展示",
+    "contents": "写真部の活動内容展示",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "17",
+    "project_name": "文芸なごみ",
+    "group_name": "文芸部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟",
+    "room_name": "第5講義室",
+    "room_number": "104",
+    "category": "展示",
+    "contents": "文芸部の冊子配布",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "18",
+    "project_name": "音楽空間",
+    "group_name": "音楽研究同好会",
+    "group_type": "同好会",
+    "building_name": "一般研究棟",
+    "room_name": "第5講義室",
+    "room_number": "104",
+    "category": "展示",
+    "contents": "CDの配布をする。休憩所、文芸と合同。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "19",
+    "project_name": "IBPerformance",
+    "group_name": "パフォーマンスサークル(仮)&Rainbow Lovers Crew",
+    "group_type": "有志",
+    "room_name": "初回:第1講義室前(総合教育棟下)\n2.3回目:食堂前(食品企画のさらに奥で渡り廊下",
+    "building_name": "総合教育棟前",
+    "room_number": null,
+    "category": "発表",
+    "contents": "1回目はロープスキッピングをメインとしたパフォーマンスを5人程度で行います。\n場所は総合教育棟下、第1講義室前を想定しています。\n2回目と3回目はジャグリングをメインとしたパフォーマンスを行います。\n場所は右下の画像のあたりを想定しています。\nまた随時回遊パフォーマンス(バルーンアートやスタチューなど)の実施。",
+    "comment": "",
+    "item": null
+  },
+  {
+    "project_type": "C",
+    "project_number": "20",
+    "project_name": "LIFE 〜人生と言う名のゲーム〜",
+    "group_name": "3年機械工学科有志",
+    "group_type": "有志",
+    "room_name": "M2講義室",
+    "building_name": "総合教育棟",
+    "room_number": "307",
+    "category": "アトラクション",
+    "contents": "教室全体を使用して人生ゲームを行う。床に市販されている人生ゲームのようなコースを作り、参加者は待合の状況によりある程度のチームに分かれて、1回のゲームにつき3チーム程度でゲームを進行していく。参加者は自分のチームの番になったらさいころをふり、その目の数だけ進む。途中、1回休みなどのペナルティなどのマスを通りながら、ゴールを目指す。1位でゴールしたチームには景品をだす。",
+    "comment": "d-05から変更",
+    "item": null
+  },
+  {
+    "project_type": "D",
+    "project_number": "1",
+    "project_name": "ハサミントン",
+    "group_name": "バドミントン部",
+    "group_type": "部活動",
+    "room_name": null,
+    "building_name": "一般研究棟前",
+    "room_number": null,
+    "category": "グッズ販売",
+    "contents": "シャトルで作ったキーホルダーを販売。",
+    "comment": "バドミントン部の食品企画e-44と同じ場所",
+    "item": {
+      "シャトルキーホルダー": 100
+    }
+  },
+  {
+    "project_type": "D",
+    "project_number": "2",
+    "project_name": "駄菓子屋バボ",
+    "group_name": "バレーボール部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "E2講義室",
+    "room_number": "207",
+    "category": "アトラクション",
+    "contents": "駄菓子の販売，アトラクションの運営",
+    "comment": "",
+    "item": {}
+  },
+  {
+    "project_type": "D",
+    "project_number": "3",
+    "project_name": "イラスト工房",
+    "group_name": "美術部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟",
+    "room_name": "D1講義室",
+    "room_number": "206",
+    "category": "グッズ販売",
+    "contents": "オリジナルのしおり・ポストカード・ぬりえの作成販売。",
+    "comment": "",
+    "item": {
+      "ポストカード3枚組": 100,
+      "しおり2枚組": 50,
+      "ぬりえ": 300
+    }
+  },
+  {
+    "project_type": "D",
+    "project_number": "4",
+    "project_name": "キーホルダー製作所 〜あなたのために削ります〜",
+    "group_name": "自動化機構研究室",
+    "group_type": "研究室",
+    "building_name": "第1研究棟",
+    "room_name": "自動化機構第1実験室",
+    "room_number": "317",
+    "category": "グッズ販売",
+    "contents": "研究室内にある工作機械（kitmil,HAKU）をつかって、注文されたデザインのキーホルダーを製作する。また、歯車のキーホルダーの製作販売もおこなう。",
+    "comment": "",
+    "item": {
+      "ネームプレート": 300,
+      "歯車キーホルダ": 400
+    }
+  },
+  {
+    "project_type": "D",
+    "project_number": "6",
+    "project_name": "I’LL BE BACK",
+    "group_name": "化学研究同好会",
+    "group_type": "同好会",
+    "building_name": "科学実験棟",
+    "room_name": "化学実験室",
+    "room_number": "102",
+    "category": "体験",
+    "contents": "人工いくら？食品サンプル？オリーブオイルから石鹸？どれをやるかは当日発表！\n※薬品や材料の関係で、年齢や人数を制限することがあります。\n※11：30〜13：30休止します※ターミネータは全く関係ありません",
+    "comment": "c-11から変更",
+    "item": {
+      "石鹸": 500,
+      "食品サンプル": 800,
+      "人工いくら": 0,
+      "スライム": 0
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "1",
+    "project_name": "○○ポテト",
+    "group_name": "吹奏楽部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "ポテト"
+    },
+    "contents": "ジャガイモをゆでて味付けをして、提供します",
+    "comment": "",
+    "item": {
+      "じゃがバター" : 200,
+      "じゃが明太" : 200,
+      "じゃがチーズ" : 200,
+      "カリじゃが" : 200,
+      "塩じゃが" : 170,
+      "マヨネーズ(トッピング)" : 30
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "2",
+    "project_name": "理系カフェ",
+    "group_name": "5年電気電子工学科",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "D1講義室",
+    "room_number": "206",
+    "category": {
+      "main": "カフェ",
+      "sub": "カフェ"
+    },
+    "contents": "理系カフェは室内で行うカフェ形式の食品企画です。",
+    "comment": "",
+    "item": {
+      "おしるこ" : 150,
+      "フルーツポンチ" : 150,
+      "ドリンク" : 50
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "3",
+    "project_name": "炭火焼きそば",
+    "group_name": "水泳部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "麺類",
+      "sub": "焼きそば"
+    },
+    "contents": "販売する食品は主に、おしるこやフルーツポンチなどのスイーツを予定している。また、現段階では科学実験の",
+    "comment": "",
+    "item": {
+      "焼きそば": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "4",
+    "project_name": "タッピー＆オカ村",
+    "group_name": "4E有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "飲み物",
+      "sub": "タピオカジュース"
+    },
+    "contents": "タピオカジュースの販売",
+    "comment": "",
+    "item": {
+      "タピオカジュース": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "5",
+    "project_name": "パワフル焼きそば",
+    "group_name": "柔道部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "麺類",
+      "sub": "焼きそば"
+    },
+    "contents": "食品販売・調理\n焼きそばの販売・調理を行います。\n＜材料＞\n・麺\n・キャベツ\n・豚肉\n・ソース\n以上の材料を用いて、鉄板（炭火）で調理します。\nこれらによく火を通して、仕上げに青のりと紅ショウガを添えます。",
+    "comment": "",
+    "item": {
+      "焼きそば": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "6",
+    "project_name": "ベイビーカステラ",
+    "group_name": "男子硬式テニス部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "カステラ"
+    },
+    "contents": "原材料はホットケーキとほぼ同じです。その生地をたこ焼き器で焼いて販売します。",
+    "comment": "",
+    "item": {
+      "ベビーカステラ": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "7",
+    "project_name": "あったかワンちゃん",
+    "group_name": "3D有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "パン類",
+      "sub": "ホットドック"
+    },
+    "contents": "ホットドックの販売、種類はプレーン、チーズ、チリの3種類で販売",
+    "comment": "",
+    "item": {
+      "ホットドック": 200,
+      "チーズドック": 250,
+      "チリドック": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "8",
+    "project_name": "茶屋 うちだ",
+    "group_name": "5年機械工学科",
+    "group_type": "クラス",
+    "building_name": "総合教育棟",
+    "room_name": "M3講義室",
+    "room_number": "306",
+    "category": {
+      "main": "カフェ",
+      "sub": "コスプレ喫茶"
+    },
+    "contents": "カフェ コスプレ喫茶 コスプレをしてパンケーキ及びフライドアイス、コーヒー、紅茶の販売",
+    "comment": "",
+    "item": {
+      "パンケーキ": 250,
+      "フライドアイス": 200,
+      "コーヒー": 100,
+      "紅茶": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "9",
+    "project_name": "Wurststube7",
+    "group_name": "ドイツ研究同好会",
+    "group_type": "同好会",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "ソーセージ"
+    },
+    "contents": "ドイツ風ソーセージの販売、ハリボー（ドイツ発祥のグミ）の販売",
+    "comment": "",
+    "item": {
+      "ソーセージ": 200,
+      "ハリボー": 50
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "10",
+    "project_name": "M科ナルド",
+    "group_name": "M科男有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "チキンナゲット"
+    },
+    "contents": "食品販売\n主にチキンナゲット・フライドポテトの販売",
+    "comment": "",
+    "item": {
+      "ナゲット": 300,
+      "フライドポテト": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "11",
+    "project_name": "ちゃんこ",
+    "group_name": "島崎部屋有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "汁物",
+      "sub": "ちゃんこ"
+    },
+    "contents": "材料（人参、大根、こんにゃく、白菜）を一口サイズにカットし、煮込んで味付けをし、ちゃんことして売る。",
+    "comment": "",
+    "item": {
+      "ちゃんこ": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "12",
+    "project_name": "チキ☆チェケ☆ステーキ",
+    "group_name": "4E有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "チキンステーキ"
+    },
+    "contents": "鶏肉を鍋でゆでて、しっかり火を通したのち両面を焼く。そしてパックに詰めて割り箸とともに提供する。",
+    "comment": "",
+    "item": {
+      "チキンステーキ": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "13",
+    "project_name": "俺のチョコバナナとわたあめ",
+    "group_name": "ソフトテニス部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "チョコバナナ"
+    },
+    "contents": "チョコバナナは、チョコを溶かしてバナナにかけてその上にカラースプレーをふりかける。綿あめは、綿あめ機にザラメをいれて綿あめを作る。",
+    "comment": "",
+    "item": {
+      "チョコバナナ": 100,
+      "わたあめ": 50
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "14",
+    "project_name": "ラグビー部のからあげ",
+    "group_name": "ラグビー部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "唐揚げ"
+    },
+    "contents": "かららあげ粉を溶かした水に鶏肉を浸け、油で揚げる。これを容器に5〜6個入れ、爪楊枝をつけて販売する。\n容器は紙コップを使う。値段は150円とする。\nガスコンロは三台使用し、フライパンで油を熱し、鶏肉を揚げる。コンロは長机の上に置く。油が前方に飛ばない\nように、コンロの前に壁を立てる。\n調理者はエプロンと頭巾を着用する。調理は調理者が交代でする。\n企画終了後、油はトイレットペーパーで吸い取り処分する。鶏肉が余った場合は、なるべく食べずに処分する。",
+    "comment": "",
+    "item": {
+      "からあげ": 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "15",
+    "project_name": "5Dbar",
+    "group_name": "5D有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟",
+    "room_name": "C3講義室",
+    "room_number": "402",
+    "category": {
+      "main": "カフェ",
+      "sub": "バー"
+    },
+    "contents": "カフェ・バーのように、コーヒー・ジュース等の飲み物と、パウンドケーキ・クッキー等の食べ物を販売する。教室の中に机を配置して、お客に中で飲食してもらえるようにする。",
+    "comment": "",
+    "item": {
+      "クッキー" : 100,
+      "パウンドケーキ" : 200,
+      "ホットサンド" : 200,
+      "クラッカー" : 100,
+      "フレンチトースト" : 200,
+      "パフェ" : 200,
+      "チョコ" : 100,
+      "コーヒー" : 100,
+      "ジュース" : 100,
+      "シェーク" : 150,
+      "タピオカジュース" : 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "16",
+    "project_name": "チャリ部のおやつトースト",
+    "group_name": "自転車部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "パン類",
+      "sub": "トースト"
+    },
+    "contents": "卵，牛乳，砂糖，バニラエッセンスをボウルに入れて混ぜ，卵液を作る。\n食パンを浸し、フライパンで加熱する。（食材はクーラーボックスなどで温度管理はしっかりとします。\n質問なのですがバターは使用可能でしょうか？使えない場合はマーガリンで代用しようと思っています）",
+    "comment": "",
+    "item": {
+      "フレンチトースト": 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "17",
+    "project_name": "cafe 泉",
+    "group_name": "D5有志",
+    "group_type": "有志",
+    "building_name": "第2研究棟",
+    "room_name": "共通ゼミ室B",
+    "room_number": "108",
+    "category": {
+      "main": "カフェ",
+      "sub": "コーヒー"
+    },
+    "contents": "珈琲を飲んでもらいつつ，卒研の成果展示，発表の場とする．",
+    "comment": "場所がとれなければ企画取り消し",
+    "item": {
+      "コーヒー": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "18",
+    "project_name": "赤点★低空レストラン",
+    "group_name": "M科留年勢",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "角煮まんじゅう"
+    },
+    "contents": "角煮まんじゅうをメインとした食品販売。サイドメニューも充実させる予定。まんじゅうは冷凍のものを購入予定で、調理には蒸し器を使用する。角煮は豚バラブロックをキロ単位で購入し、販売当日に圧力鍋で調理。",
+    "comment": "提出遅れ / 価格がようわからん",
+    "item": {
+      "角煮まんじゅう": 100,
+      "スープ": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "19",
+    "project_name": "PACO'S キッチン",
+    "group_name": "料理研(非公認)",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": "一般教育棟、吹き抜け付近",
+    "room_number": null,
+    "category": {
+      "main": "スイーツ",
+      "sub": "ケーキ"
+    },
+    "contents": "オリジナル溢れるスイーツや食べ物やドリンクを販売。その場で作りながら販売する。",
+    "comment": "",
+    "item": {
+      "レアチーズパフェ": 300,
+      "プリン": 200,
+      "コーヒー": 100,
+      "ケーキスティック": 200,
+      "トルティーヤ": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "20",
+    "project_name": "ハリー・ポテッターと不死鳥の唐揚げ",
+    "group_name": "囲碁部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟前",
+    "room_name": "総合教育棟前（校門側）",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "唐揚げ"
+    },
+    "contents": "ポテト及び唐揚げを、当日に油で揚げて販売する。商品は紙コップに詰めて、爪楊枝を添える。味付けは塩のみ。",
+    "comment": "",
+    "item": {
+      "唐揚げ": 150,
+      "フライドポテト": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "21",
+    "project_name": "抹茶屋",
+    "group_name": "3Ｊ有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スイーツ",
+      "sub": "プリン"
+    },
+    "contents": "当日調理した料理を提供。容器は紙コップ、紙皿を予定。調理はホットプレート等を使用。",
+    "comment": "",
+    "item": {
+      "抹茶プリン": 200,
+      "抹茶ホットケーキ": 200,
+      "あんみつ": 200,
+      "クッキー": 100,
+      "抹茶": 50,
+      "紅茶": 50,
+      "コーヒー": 50,
+      "抹茶オレ": 50
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "22",
+    "project_name": "ベルギー料理\"フリッツ！！\"",
+    "group_name": "寮生3年有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": "正門前",
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "フリッツ"
+    },
+    "contents": "ベルギー料理フリッツの調理と販売",
+    "comment": "",
+    "item": {
+      "フリッツ": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "23",
+    "project_name": "ザ・絹美人♪",
+    "group_name": "DJ2有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "汁物",
+      "sub": "豆腐"
+    },
+    "contents": "豆腐を使った料理の販売（湯豆腐、冷奴、揚げ出し豆腐など）、飲み物の販売",
+    "comment": "",
+    "item": {
+      "湯豆腐": 100,
+      "冷奴": 100,
+      "揚げ出し豆腐": 150,
+      "飲み物": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "24",
+    "project_name": "フライドポテトヘッド",
+    "group_name": "5Mのおデブちゃん",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "ポテト"
+    },
+    "contents": "業務スーパーで購入した冷凍のポテトを油で揚げて販売",
+    "comment": "",
+    "item": {
+      "フライドポテト": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "25",
+    "project_name": "mochi ☆ cafe",
+    "group_name": "5D，5E女子学生の会",
+    "group_type": "有志",
+    "room_name": "総合教育棟2F",
+    "building_name": "総合教育棟",
+    "room_number": null,
+    "category": {
+      "main": "スイーツ",
+      "sub": "わらびもち"
+    },
+    "contents": "わらび餅（きな粉・黒蜜、抹茶きな粉）、緑茶セット、水まんじゅうを販売する。\n部屋に椅子や机を配置し、購入したものを食べられるスペースをつくる。\n空いた場所で、水風船の手作り体験（有料）を行う。",
+    "comment": "",
+    "item": {
+      "わらびもち": 150,
+      "わらびもち+緑茶セット": 200,
+      "水まんじゅう": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "27",
+    "project_name": "もつの惑星 創世記",
+    "group_name": "天文同好会",
+    "group_type": "同好会",
+    "building_name": "一般研究棟前",
+    "room_name": "中庭",
+    "room_number": null,
+    "category": {
+      "main": "汁物",
+      "sub": "もつ煮"
+    },
+    "contents": "材料（もつ、大根、こんにゃく、人参、ゴボウ、しょうが）を事前に準備し、当日醤油、砂糖等で味付けして煮込んだものを販売。量は使い捨てのお椀に一杯分。煮込む時間は2時間程度。",
+    "comment": "",
+    "item": {
+      "もつ煮": 300,
+      "飲み物": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "28",
+    "project_name": "拉麺 怎么样",
+    "group_name": "中国語Ⅱ 有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "麺類",
+      "sub": "ラーメン"
+    },
+    "contents": "豚骨ラーメンの販売",
+    "comment": "",
+    "item": {
+      "豚骨ラーメン": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "29",
+    "project_name": "串Ya-Ya-yah！",
+    "group_name": "5C",
+    "group_type": "クラス",
+    "building_name": "総合教育棟前",
+    "room_name": "総合教育棟前（第1講義室前）",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "串焼き"
+    },
+    "contents": "串焼き（肉，魚），焼きとうもろこしなどの販売",
+    "comment": "",
+    "item": {
+      "豚バラ串": 150,
+      "焼き鳥": 100,
+      "焼き牛": 200,
+      "焼きイカ": 300,
+      "焼きトウモロコシ": 200,
+      "焼きマシュマロ": 80
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "30",
+    "project_name": "とこちゃん自慢のチュロス",
+    "group_name": "バスケットボール部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "チュロス"
+    },
+    "contents": "コストコで買ってきた冷凍チュロスをレンジで解凍して販売する。",
+    "comment": "",
+    "item": {
+      "チュロス": 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "31",
+    "project_name": "陸上部のたこ焼き屋さん",
+    "group_name": "陸上部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "たこ焼き"
+    },
+    "contents": "当日にたこ焼きの材料を購入し、調理、販売する",
+    "comment": "",
+    "item": {
+      "たこ焼き": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "32",
+    "project_name": "hot.dog",
+    "group_name": "4J有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": "中庭",
+    "room_number": null,
+    "category": {
+      "main": "パン類",
+      "sub": "ホットドック"
+    },
+    "contents": "ホットドックの作成及び販売",
+    "comment": "",
+    "item": {
+      "ホットドック": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "33",
+    "project_name": "豚汁だよ",
+    "group_name": "有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "汁物",
+      "sub": "豚汁"
+    },
+    "contents": "豚汁の作成、販売。",
+    "comment": "",
+    "item": {
+      "豚汁": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "34",
+    "project_name": "うどんでい",
+    "group_name": "5J有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "麺類",
+      "sub": "うどん"
+    },
+    "contents": "うどんを販売する．",
+    "comment": "提出遅れ",
+    "item": {
+      "うどん": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "35",
+    "project_name": "肉丸",
+    "group_name": "3年有志",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": "中庭",
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "肉丸"
+    },
+    "contents": "たこ焼きのタコの代わりに甘辛く味付けした肉を使用した食品です。6個入り、8個入りの販売を予定しています。\n\n\n〜それは、まったく新しい新感覚の食べ物〜\n甘辛く煮つけた芳醇な某国産肉を、やわらかな天然由来の生地で包み本格電流で丸く焼き上げました。\nこれでもかと肉汁を滴らせ、堂々の「肉丸」凱旋です!!\n大満足のボリュームで個数は6個、8個、と選べる2パターンあります。",
+    "comment": "",
+    "item": {
+      "肉丸 6個": 350,
+      "肉丸 8個": 400
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "37",
+    "project_name": "豚汁",
+    "group_name": "4E",
+    "group_type": "クラス",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "汁物",
+      "sub": "豚汁"
+    },
+    "contents": "材料を買い、豚汁を作り、来場者に販売する。",
+    "comment": "",
+    "item": {
+      "豚汁": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "38",
+    "project_name": "豚棒一閃!!",
+    "group_name": "剣道部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": "中庭",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "ソーセージ"
+    },
+    "contents": "一度ボイルしたソーセージを焼いて売る",
+    "comment": "提出遅れ",
+    "item": {
+      "ソーセージ": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "40",
+    "project_name": "食戟の奏真 2nd",
+    "group_name": "寮友会",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": "第1講義室前",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "ナゲット"
+    },
+    "contents": "寮友会のメンバーで、揚げたナゲットに数種類の味をつけて販売する。",
+    "comment": "",
+    "item": {
+      "チキンナゲット": 150,
+      "ドリンク": 50
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "41",
+    "project_name": "パンdeスープ",
+    "group_name": "3C",
+    "group_type": "クラス",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "パン類",
+      "sub": "スープパン"
+    },
+    "contents": "パンを器に見立てて、スープやアイスクリームを盛ったメインとしても、デザートとしても食べられるお食事パンです！",
+    "comment": "",
+    "item": {
+      "スープパン": 300,
+      "パンアイス": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "42",
+    "project_name": "蛋餅 好吃嗎?!",
+    "group_name": "中国語研究会(仮)",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "蛋餅"
+    },
+    "contents": "食品販売をします。蛋餅という食べ物を販売します。蛋餅は台湾の民衆的な食べ物でよく食べられています。",
+    "comment": "提出遅れ",
+    "item": {
+      "蛋餅": 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "43",
+    "project_name": "ホットアイス",
+    "group_name": "4D雄志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": "正門前",
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "ホットアイス"
+    },
+    "contents": "アイスをホットケーキでくるんだものを食べやすいようして販売します",
+    "comment": "",
+    "item": {
+      "ホットアイス": 300
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "44",
+    "project_name": "ハサミントン",
+    "group_name": "バドミントン部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "パン類",
+      "sub": "ホットサンド"
+    },
+    "contents": "ホットサンドを調理。材料は一昨年同じく八枚切り食パン、焼いたベーコン、マスタード、コショウ、マーガリンを使用する。食パンは半分に切り、焼く。また茹でたパスタをナポリタン風にして、焼いたパンに挟む。",
+    "comment": "",
+    "item": {
+      "ホットサンド": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "45",
+    "project_name": "餃子の玉将",
+    "group_name": "ゴルフ部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "餃子"
+    },
+    "contents": "手作り焼き餃子の販売",
+    "comment": "",
+    "item": {
+      "焼き餃子": 250
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "46",
+    "project_name": "タピオカ販売",
+    "group_name": "しっとこ隊",
+    "group_type": "同好会",
+    "building_name": "一般研究棟",
+    "room_name": "コミュニティールームA",
+    "room_number": "101",
+    "contents": "・タピオカジュースを中心として、他数種類のジュースを販売。\n（室内での希望が通った場合は、席を数席用意して簡易の自由休憩スペースを用意する予定。）\n\n・タピオカジュースは4〜5種類を予定",
+    "comment": "",
+    "category": {
+      "main": "飲み物",
+      "sub": "タピオカ"
+    },
+    "item": {
+      "タピオカジュース": 200,
+      "ココア": 100,
+      "ミルクティー": 100,
+      "カルピス": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "47",
+    "project_name": "ミスド〜mistake Donut〜",
+    "group_name": "ホッケー部",
+    "group_type": "部活動",
+    "building_name": "総合教育棟前",
+    "room_name": "正門付近",
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "ドーナツ"
+    },
+    "contents": "数種類のドーナツを販売致します。",
+    "comment": "",
+    "item": {
+      "プレーンドーナツ" : 150,
+      "チョコドーナツ" : 150,
+      "ポンデリング" : 200,
+      "チュロス" : 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "48",
+    "project_name": "水あめ",
+    "group_name": "卓球部",
+    "group_type": "部活動",
+    "building_name": "一般研究棟前",
+    "room_name": "食堂前広場",
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "水あめ"
+    },
+    "contents": "水あめをモナカで挟んだり割り箸に付けて販売する。水あめは既製品を使用する。",
+    "comment": "",
+    "item": {
+      "水あめ" : 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "49",
+    "project_name": "天下第一味",
+    "group_name": "留学生",
+    "group_type": "有志",
+    "building_name": "一般研究棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "スナック",
+      "sub": "団子"
+    },
+    "contents": "マレーシアの食べ物を中心として売ります。",
+    "comment": "提出遅れ",
+    "item": {
+      "バナナ団子": 150,
+      "ムアチ": 200
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "50",
+    "project_name": "スPあげッテイ",
+    "group_name": "サッカー部4年有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "麺類",
+      "sub": "スパゲッティ"
+    },
+    "contents": "パスタを油で揚げて、選んでもらった味付けをして提供",
+    "comment": "出展内容がようわからん",
+    "item": {
+      "揚げスパゲッティ": 150
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "51",
+    "project_name": "鳥々苑",
+    "group_name": "寮生有志",
+    "group_type": "有志",
+    "building_name": "実験実習センター",
+    "room_name": "工場棟前",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "焼き鳥"
+    },
+    "contents": "一度ボイルした鶏肉を炭火で焼いて焼き鳥として販売する。",
+    "comment": "提出遅れ",
+    "item": {
+      "焼き鳥": 100
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "52",
+    "project_name": "パーマ野郎の焼き鳥屋さん",
+    "group_name": "5J有志",
+    "group_type": "有志",
+    "building_name": "総合教育棟前",
+    "room_name": null,
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "焼き鳥"
+    },
+    "contents": "5J有志による焼き鳥の販売．",
+    "comment": "イラスト未提出",
+    "item": {
+      "焼き鳥(3本)": 120
+    }
+  },
+  {
+    "project_type": "E",
+    "project_number": "53",
+    "project_name": "木下さん家の肉フェス",
+    "group_name": "専攻科",
+    "group_type": "有志",
+    "room_name": "第1講義室前",
+    "building_name": "総合教育棟前",
+    "room_number": null,
+    "category": {
+      "main": "肉",
+      "sub": "焼き鳥"
+    },
+    "contents": "焼き鳥を主とし数種類の肉を炭火等で焼き、販売。",
+    "comment": "",
+    "item": {
+      "焼き鳥": 150
+    }
+  },
+  {
+    "project_type": "F",
+    "project_number": "1",
+    "project_name": "国際交流展示",
+    "group_name": "国際交流委員会",
+    "group_type": "教職員",
+    "building_name": "一般研究棟",
+    "room_name": "学生食堂前ホール",
+    "room_number" : null,
+    "category": "展示",
+    "contents": "木更津高専における国際交流のポスター展示",
+    "comment": "",
+    "item" : null
+  },
+  {
+    "project_type": "F",
+    "project_number": "2",
+    "project_name": "入試相談コーナー",
+    "group_name": "入試委員会",
+    "group_type": "教職員",
+    "building_name": "一般研究棟",
+    "room_name": "学生食堂",
+    "room_number": null,
+    "category": "入試",
+    "contents": "木更津高専の教職員による入試相談コーナー",
+    "comment": "",
+    "item" : null
+  },
+  {
+    "project_type": "F",
+    "project_number": "3",
+    "project_name": "メンタルヘルス講演会",
+    "group_name": "学生課 学生係",
+    "group_type": "教職員",
+    "room_name": "第1講義室",
+    "building_name": "総合教育棟",
+    "room_number": "101",
+    "category": "講演会",
+    "contents": "メンタルヘルスについての講演会を行います。 10/24 14:30~16:00",
+    "comment": "",
+    "item" : null
+  },
+  {
+    "project_type": "F",
+    "project_number": "4",
+    "project_name": "保護者全体講演会",
+    "group_name": "学生課 学生係",
+    "group_type": "教職員",
+    "room_name": "第1講義室",
+    "building_name": "総合教育棟",
+    "room_number": "101",
+    "category": "懇談会",
+    "contents": "懇談会を行います。 10/24 13:10~4:30",
+    "comment": "",
+    "item" : null
+  },
+  {
+    "project_type": "F",
+    "project_number": "5",
+    "project_name": "おとんとおかんの体力測定",
+    "group_name": "学生課 学生係",
+    "group_type": "教職員",
+    "room_name": "第1講義室",
+    "building_name": "総合教育棟",
+    "room_number": "101",
+    "category": "懇談会",
+    "contents": "大人の方向けの体力測定です。 10/25",
+    "comment": "",
+    "item" : null
+  }
+]
