@@ -1,19 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: enotai
- * Date: 15/10/10
- * Time: 23:05
- */
-
 include('template/define.php');
-$title .= "企画検索サンプル";
-//$description="説明文章";
-//$keyword="";
+$title.='企画検索サンプル';
+$description.='説明文章';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
@@ -58,48 +48,9 @@ include('template/top.php');
 
             <button type="submit" class="btn btn-lg btn-primary">Go</button>
           </div>
-
         </form>
-        <hr />
       </div>
-
-
-      <!--<div class="col-md-10 col-md-offset-1">
-        <h2>/api/project/nearby</h2>
-
-        <form action="test-show.php" method="get">
-          <div class="form-group">
-            <div class="radio">
-              <label>
-                <input type="radio" name="api" id="mapXYZ" value="nearby-xyz">
-                x, y, z
-              </label>
-              <div class="form-inline" style="padding-left: 20px">
-                <input type="text" class="form-control" id="x" name="x" placeholder="3" maxlength="2" size="2">&nbsp;,&nbsp;
-                <input type="text" class="form-control" id="y" name="y" placeholder="12" maxlength="2" size="2">&nbsp;,&nbsp;
-                <input type="text" class="form-control" id="z" name="z" placeholder="2" maxlength="2" size="2">
-              </div>
-            </div>
-
-            <div class="radio">
-              <label>
-                <input type="radio" name="api" id="mapCoord" value="nearby-coord">
-                coord
-              </label>
-              <div class="form-inline" style="padding-left: 20px">
-                <input type="text" class="form-control" id="coord" name="coord" placeholder="3,12,2" maxlength="10" size="10">
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-lg btn-primary">Go</button>
-          </div>
-        </form>
-        <hr/>
-      </div>-->
-
-
     </div>
   </div>
 </div>
-  <!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>

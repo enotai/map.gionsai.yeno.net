@@ -1,12 +1,9 @@
 <?php
 include('template/define.php');
-$title.="Index";
-//$description="説明文章";
-//$keyword="";
+$title.='Index';
+$description.='';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
   <div id="page-content-wrapper">
     <div class="container-fluid">
       <div class="row">
@@ -21,7 +18,6 @@ include('template/top.php');
       </div>
     </div>
   </div>
-  <!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>
 
 

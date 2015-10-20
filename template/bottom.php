@@ -1,12 +1,12 @@
 <?php
 $end = microtime();
-$loadtime = ($end - $start) * 1000;
-if($debug == true) echo '<p>読み込み時間 : ' . $loadtime . 'ms</p>';
+$load_time = ($end - $start) * 1000;
+if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>';
 ?>
 
 <?php
-include('./template/jslist.php'); echo PHP_EOL;
-include('./template/footer.php'); echo PHP_EOL;
+include(dirname(__FILE__) . '/../template/jslist.php');
+include(dirname(__FILE__) . '/../template/footer.php');
 ?>
 
 </body>

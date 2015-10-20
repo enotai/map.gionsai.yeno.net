@@ -157,11 +157,10 @@ class SearchProjectPrice extends searchProject {
     $min_price = $price_array[0];
     $max_price = $price_array[1];
 
-
     if($min_price && $max_price == false) throw new Exception('検索結果なし', 402);//他のページもまとめる場合、パラメータに基づいた判定も必要
     if($min_price == false) $min_price = 0;
     if($max_price == false) $max_price = 10000;
-    if(!preg_match('/^[0-9]{1,4}$/', $min_price) || !preg_match('/^[0-9]{1,4}$/', $max_price)) throw new Exception('不正検出', -1);
+    if(!preg_match('/^[0-9]{0,4}$/', $min_price) || !preg_match('/^[0-9]{0,5}$/', $max_price)) throw new Exception('不正検出', -1);
 
     for($i = 0; $i < count($this->kikaku_all); $i++) {//元のkikaku_allをカウントに使用しないと、勝手に減ってしまう
       if(isset($kikaku_all_tmp[$i]->alias)) continue; //aliasとなったものの処理
@@ -203,7 +202,7 @@ try {
   $double = false;
   $search_value = '';
   $search_type = '';
-  for($i = 0; $i < count($init->type); $i++) {//加算方式
+  for($i = 0; $i < count($init->type); $i++) {//パラメータを左から見ていく
     $search = new SearchProject();
 
     if($init->type[$i] == 'min_price'){
@@ -228,10 +227,8 @@ try {
 
     if(!$search->type) throw new Exception('検索対象ではない', 104);
 
-    if($i == 0) $search->kikaku_all = $init->kikaku_all;
-    else {
-      $search->kikaku_all = $search_result;
-    }
+    if($i == 0) $search->kikaku_all = $init->kikaku_all;//企画リスト
+    else $search->kikaku_all = $search_result;
 
     switch($search->type) {//jsonのtypeに変換 / ja_enと同様の名前
       case 'place' :
@@ -248,7 +245,7 @@ try {
         $search->type = $init->type[$i];
         $search->value = $init->value[$i];
 
-        if($i == count($init->type)) $search->kikaku_all = $init->kikaku_all;
+        if($i == 0) $search->kikaku_all = $init->kikaku_all;
         else $search->kikaku_all = $search_result;
         break;
 
@@ -259,7 +256,7 @@ try {
         $search->type = $init->type[$i];//インスタンス再生成
         $search->value = $init->value[$i];
 
-        if($i == count($init->type)) $search->kikaku_all = $init->kikaku_all;
+        if($i == 0) $search->kikaku_all = $init->kikaku_all;
         else $search->kikaku_all = $search_result;
         break;
 
@@ -269,13 +266,16 @@ try {
         if($double){
           $search->type = $search_type;//インスタンス再生成
           $search->value = $search_value;
+
+          if($i == 1) $search->kikaku_all = $init->kikaku_all;
+          else $search->kikaku_all = $search_result;
         } else {
           $search->type = $init->type[$i];
           $search->value = $init->value[$i];
+
+          if($i == 0) $search->kikaku_all = $init->kikaku_all;
+          else $search->kikaku_all = $search_result;
         }
-        if($i == count($init->type)) $search->kikaku_all = $init->kikaku_all;
-        else $search->kikaku_all = $search_result;
-        $search->kikaku_all = $init->kikaku_all;//ここから
         break;
 
       default :
@@ -286,7 +286,7 @@ try {
   }
   echo $search->matchProject();
   if(count($init->type) == 0) throw new Exception('パラメータがない', 402);
-/*z  $search = new SearchProject();
+/*  $search = new SearchProject();
   if($init->type[0] == 'min_price' || $init->type[0] == 'max_price') {//複数を検討…
     $search->type = 'price';
   } else {

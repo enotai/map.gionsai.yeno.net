@@ -13,11 +13,17 @@ require_once('./include/form.php');
 
 $get_array = ['proj_type', 'proj_number'];//get対象
 
-foreach($get_array as $value){
-  $$value = $_GET[$value];
-}
 
-$query = 'type=kikaku&proj_type=' . $proj_type . '&proj_number=' . $proj_number;
+
+if(isset($_GET['project'])) {
+  $query = 'type=kikaku&project=' . s($_GET['project']);
+} else {
+  foreach($get_array as $value){
+    $$value = $_GET[$value];
+  }
+
+  $query = 'proj_type=' . $proj_type . '&proj_number=' . $proj_number;
+}
 
 $kikaku_json = file_get_contents('http://'.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'].'/../api/project/info?type=kikaku&'.$query);//jsonファイル取得
 //複数なった時$param は使えないのでは
@@ -33,27 +39,16 @@ foreach($map_number_arr->building_map as $key => $value){
 }
 if(!isset($map_number)) $map_number = 'all';
 
-/*========================企画イラストアドレス===============================*///apiにもっていかないか?
-$img_dir = scandir('./img/project/'.strtoupper($proj_type));
-for($i = 2; $i<count($img_dir); $i++) {//上位ディレクトリへのリンクはパス
-
-  //番号の先頭に0がつくものがあるから分割処理
-  $img_dir_format[$i] = explode('.', $img_dir[$i]);
-  $img_dir_format[$i] = explode('-', $img_dir_format[$i][0]);
-  if($img_dir_format[$i][1] == $proj_number) $img_dir_addr = $i;//緩やかな比較
-}
-
-$img_addr = isset($img_dir_addr) ? './img/project/'.strtoupper($proj_type).'/'.$img_dir[$img_dir_addr] : './img/project/noimg.png';
-
-//現在地処理
-
 
 $svg_map_building = json_decode(file_get_contents('./json/project_map.json'));//とりまmap名<->building
 
+
+$area_x = 680.906;
+$area_y = 592.184;
 foreach($svg_map_building->building_coordinate as $key => $value){//またforeachをつかった検索です
   if($key == $kikaku_result[0]->building_name){
     $x = $value[0];
-    $y = $value[1];
+    $y = $area_y / $area_x *100 - $value[1];
   }
 }
 
@@ -61,18 +56,19 @@ if(!isset($x)){
   $x=0;$y=0;//消す
 }
 
+echo $x ."\n". $y;
+
 //もともと0..100で現在地を設定しているのでmapサイズに合わせて位置調整
-$x *= 6.80906;
-$y *= 6.80906*6.80906/5.92184; $y = 592.184 - $y;//y軸の計算が狂っているから調整する
+$x *= 6.80906 - 0.24;//若干ずれているみたいだから調整
+$y *= 5.92184;
 
 //$cx1=8.539; $cy1=10.036; $r1=7.087;//初期設定
 //$x11=1.859; $y11=12.39; $x21=8.674; $y21=31.485;
 //$x12=15.043; $y12=12.852; $x22=8.674; $y22=31.485;
 //$cx2=8.539; $cy2=10.036; $r2=2.126;
 
-//$x=500; $y=300;//現在地座標
 
-$cx1=8.539+$x; $cy1=10.036+$y; $r1=7.087;//初期設定
+$cx1=8.539+$x; $cy1=10.036+$y; $r1=7.087;
 $x11=1.859+$x; $y11=12.39+$y; $x21=8.674+$x; $y21=31.485+$y;
 $x12=15.043+$x; $y12=12.852+$y; $x22=8.674+$x; $y22=31.485+$y;
 $cx2=8.539+$x; $cy2=10.036+$y; $r2=2.126;
@@ -119,7 +115,7 @@ include('./template/top.php');
 
 
         <div class="thumbnail">
-          <img src="<?= $img_addr ?>" alt="hoge">
+          <img src="<?= $kikaku_result[0]->img_address ?>">
           <div class="caption">
             <? if($kikaku_result[0]->project_type == 'E') :?>
               <p><span class="label label-info"><?= $kikaku_result[0]->category->sub ?></span></p>
@@ -139,7 +135,7 @@ include('./template/top.php');
 
   </div>
 
-  <div class="container-fluid" style="zmargin-bottom: 30px"><!--全体を囲ってしまう?-->
+  <div class="container-fluid" style="margin-bottom: 30px"><!--全体を囲ってしまう?-->
 <!--全画面表示-->
     <svg x="0px" y="0px" viewBox="0 0 680.906 592.184" enable-background="new 0 0 680.906 592.184" xml:space="preserve">
 

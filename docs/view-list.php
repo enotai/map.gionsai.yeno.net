@@ -1,28 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: enotai
- * Date: 15/10/10
- * Time: 23:32
- */
-
-include('template/define.php');//かぶってる
-$title .= "企画検索サンプル";
-//$description="説明文章";
-//$keyword="";
-
-$start = microtime();
-
 require_once('../include/define.php');
 require_once('../include/form.php');
 
 $kikaku_json = file_get_contents(BASEURL . '/api/project/info?type=list');//jsonファイル取得
-
 $kikaku_list = json_decode($kikaku_json);//配列へデコード
+
+include('template/define.php');//かぶってる
+$title.='企画検索サンプル';
+$description.='APIの全企画取得例';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
@@ -39,17 +26,16 @@ include('template/top.php');
         </ul>
         <?php
         echo '
-  <table class="table table-striped table-bordered table-hover col-lg-10">
-  <tbody>
-  ';
+        <table class="table table-striped table-bordered table-hover col-lg-10">
+        <tbody>
+        ';
 
 
         for($i = 0; $i < count($kikaku_list); $i++) {
           if($i % 10 == 0) {
             echo '<tr>' . "\n";
-
             foreach($kikaku_list[0] as $key => $value) {//表示
-              if($key == 'coordinate' || $key == 'item' || $key == 'contents' || $key == 'comment' || $key == 'img_address' ) continue;
+              if($key == 'coordinate' || $key == 'item' || $key == 'contents' || $key == 'comment' || $key == 'img_address') continue;
               echo '<th>' . $key . '</th>' . "\n";
             }
             echo '</tr>' . "\n";
@@ -57,9 +43,8 @@ include('template/top.php');
 
           if($kikaku_list[$i]->project_number == 1) echo '<tr id="' . $kikaku_list[$i]->project_type . '">' . "\n";
           else echo '<tr>' . "\n";
-
           foreach($kikaku_list[$i] as $key => $value) {//表示
-            if($key == 'coordinate' || $key == 'item' || $key == 'contents' || $key == 'comment' || $key == 'img_address' ) continue;
+            if($key == 'coordinate' || $key == 'item' || $key == 'contents' || $key == 'comment' || $key == 'img_address') continue;
             if(isset($kikaku_list[$i]->category->main) && $key == 'category') echo '<td>' . $value->main . ' / ' . $value->sub . '</td>' . "\n";
             else echo '<td>' . $value . '</td>' . "\n";
           }
@@ -86,18 +71,18 @@ include('template/top.php');
           }
         }
         echo '
-  </tbody>
-  </table>';
+        </tbody>
+        </table>
+        ';
 
         $end = microtime();
-        $loadtime = ($end - $start) * 1000;
+        $load_time = ($end - $start) * 1000;
         ?>
       </div>
     </div>
+  <? if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
   </div>
 </div>
 
 
-<? if($debug == true) echo '<p>読み込み時間 : ' . $loadtime . 'ms</p>'; ?>
-  <!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>

@@ -1,17 +1,18 @@
 <?php
 include('template/define.php');
-$title .= "Index";
-//$description="説明文章";
-//$keyword="";
+$title.='更新履歴';
+$description.='更新履歴';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <h1>更新履歴</h1>
+        <dl>
+          <dt>2015/10/21</dt>
+          <dd>/search が複数検索に対応<br>内部ロジックの変更</dd>
+        </dl>
         <dl>
           <dt>2015/10/13</dt>
           <dd>画像アドレスの変更</dd>
@@ -28,7 +29,6 @@ include('template/top.php');
     </div>
   </div>
 </div>
-<!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>
 
 

@@ -1,12 +1,9 @@
 <?php
 include('template/define.php');
-$title.="エンドポイント :: 企画";
-//$description="説明文章";
-//$keyword="";
+$title.='エンドポイント :: 企画';
+$description.='/project の仕様';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
@@ -78,7 +75,6 @@ include('template/top.php');
     </div>
   </div>
 </div>
-<!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>
 
 

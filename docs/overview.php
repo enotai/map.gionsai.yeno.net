@@ -1,22 +1,17 @@
 <?php
 include('template/define.php');
-$title.="概要";
-//$description="説明文章";
-//$keyword="enotai,enotai.com,えのたい,電子工作,チェロ,フルート";
+$title.='概要';
+$description.='APIの概要';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <h1>概要</h1>
 
-
         <h2>URL</h2>
         <p>BaseURL : <code>http://map.gionsai.yeno.net/api</code></p>
-
 
         <h2>使い方</h2>
         <p>GETメソッドで呼び出しを行うとJSONが帰ってきます。各種パラメータは<a href="./endpoint.php">エンドポイント</a>で紹介しています。</p>
@@ -187,7 +182,6 @@ include('template/top.php');
     </div>
   </div>
 </div>
-<!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>
 
 

@@ -1,19 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: enotai
- * Date: 15/10/10
- * Time: 22:47
- */
-
 include('template/define.php');
-$title .= "企画検索サンプル";
-//$description="説明文章";
-//$keyword="";
+$title.='企画検索サンプル';
+$description.='APIの使用例';
 include('template/top.php');
 ?>
-
-<!-- Page Content -->
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
@@ -105,11 +95,7 @@ include('template/top.php');
 
         </form>
       </div>
-
     </div>
-    <br />
-    <br />
   </div>
 </div>
-<!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>

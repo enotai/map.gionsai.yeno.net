@@ -17,17 +17,11 @@ function s($string){
 
     // debug用
     if (get_magic_quotes_gpc()) {
-      $string = stripslashes($string);
+      //$string = stripslashes($string);//危険
     }
 
-    // SQLコマンド用の文字列にエスケープする
-    //$string = mysql_real_escape_string($string);
-    //非推奨らしい
-
     return $string;
-  } /*else {
-    $error = true;
-  }*/
+  }
 }
 
 

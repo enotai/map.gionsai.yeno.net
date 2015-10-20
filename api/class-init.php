@@ -115,7 +115,7 @@ class InitializeArray extends Initialize{//元は手動変換だけど、こっ�
   function assignParamArray($query) {
     $param_count = 0;//配列へ
     foreach($query as $key) {
-      if($this->getParam($key) != $key) {//パラメータが送られてきたものか
+      if($this->getParam($key) != $key) {//パラメータが送られてきたものか / これはなんだ
         $this->type[$param_count] = $key;
         $this->value[$param_count] = $this->getParam($key);
         $this->transJaEnArray();//英語パラメータを日本語に変換

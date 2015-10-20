@@ -27,3 +27,9 @@
     width: 40%;
   }
 }
+
+@media (min-width: 768px){
+  .navbar-right {
+    width: 200px;
+  }
+}

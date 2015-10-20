@@ -6,23 +6,13 @@
  * Time: 0:41
  */
 require_once('../include/define.php');
-
-include('template/define.php');//かぶってる
-$title .= "企画検索結果";
-//$description="説明文章";
-//$keyword="";
-
-$start = microtime();
-
 require_once('../include/form.php');
 
-$page_max = 10;//1ページの最大件数
+include('template/define.php');//かぶってる
+$title.='企画検索結果';
+$description.='API使用例';
 
-
-/*$debug = s($_GET['debug']);//デバッグモード中止
-if($debug) echo $debug;*/
-
-if(isset($_GET['api'])) {
+if(isset($_GET['api'])) {// /search-result.phpが完成したらそちらを試用
   switch(s($_GET['api'])){
     case 'list' :
       $query = 'type=list';
@@ -44,11 +34,8 @@ if(isset($_GET['api'])) {
 
   }
   $type = 'project';
-  $api_url = (BASEURL . '/api/project/info?' . $query);//jsonファイル取得
-}
-//センス無いやり方
-/*~~~~~~~~~~~~~~~~~~~ここから~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-else if(isset($_GET['min_price']) && isset($_GET['max_price'])) {//searchになげる
+  $api_url = (BASEURL . '/api/project/info?' . $query);
+} else if(isset($_GET['min_price']) && isset($_GET['max_price'])) {//searchになげる
   $api_url = BASEURL . '/api/search?min_price=' . s($_GET['min_price']) . '&max_price=' . s($_GET['max_price']);//冗長
 
   $type = 'price';//下で使用してる
@@ -61,27 +48,13 @@ else if(isset($_GET['min_price']) && isset($_GET['max_price'])) {//searchにな�
   }
   if(count($get_array) === 1) $type = $get_array[0];
   else echo 'ひとつにしてくれ';
-
-  /*$typeurl = $type;
-  if($type == 'category' || $type == 'group') $typeurl = 'category';//クラス化で統合するとこんな処理はいらない//api/searchに置き換えたので不要*/
-  /*~~~~~~~~~~~~~~~~~~~ここまで~~~~~~~$typeが帰ってくる~~~~~~~~~~~~~*/
-
-
   $api_url = str_replace(' ', '+', BASEURL . '/api/search?' . $type . '=' . $param);//file_get_contents用にスペースを変換
 }
 $kikaku_json = file_get_contents($api_url);//jsonファイル取得
 
-//複数なった時$param は使えないのでは
-
-
 $kikaku_result = json_decode($kikaku_json);//配列へデコード
 
 /*========================検索処理===============================*/
-/**
- * 検索対象: 企画名, 内容, 団体名
- * 複数の条件検索などに対応させる:結果が合わない
- * ↑もしかして、キーワード２つ目以降が遅れていない←検索文字列の結合が+か か
- */
 include('./template/top.php');
 ?>
 
@@ -98,28 +71,23 @@ include('./template/top.php');
 
         if(isset($kikaku_result->errors)) {//エラー存在時
           echo '
-    <h3>エラーが発生しました</h3>
-    <p>エラーコード: ' . $kikaku_result->errors->code . '<br>
-      エラーメッセージ: ' . $kikaku_result->errors->message . '</p>
-    </div>
-  </div>
-  </body>
-  </html>
-    ';
+          <h3>エラーが発生しました</h3>
+          <p>エラーコード: ' . $kikaku_result->errors->code . '<br>
+            エラーメッセージ: ' . $kikaku_result->errors->message . '</p>
+          </div>
+        </div>
+        </body>
+        </html>
+          ';
           exit;//強制終了
         }
-
-        if($type == '') {
-          echo '<p>検索キーワードが指定されていません</p><p><a href="index.php">トップへ戻る</a></p></div></div></body></html>';
-          exit;
-        } else {
 
           /*===============================================================*/
 
           echo '
-   <h2>検索結果</h2>
-    <table class="table table-striped table-bordered table-hover">
-    <tbody>';
+         <h2>検索結果</h2>
+          <table class="table table-striped table-bordered table-hover">
+          <tbody>';
 
 
           echo '<tr>';
@@ -158,24 +126,18 @@ include('./template/top.php');
             }
           }
 
-
           echo '
-    </tbody>
-    </table>';
-        }
+        </tbody>
+        </table>';
 
 
         $end = microtime();
-        $loadtime = ($end - $start) * 1000;
+        $load_time = ($end - $start) * 1000;
         ?>
 
-        <? //if($debug == true) echo '<p>読み込み時間 : ' . $loadtime . 'ms</p>'; ?>
-        <? echo '<p>読み込み時間 : ' . $loadtime . 'ms</p>'; ?>
+        <? if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
       </div>
     </div>
   </div>
 </div>
-
-
-  <!-- /#page-content-wrapper -->
 <?php include('template/bottom.php'); ?>
