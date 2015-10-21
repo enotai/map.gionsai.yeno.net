@@ -76,7 +76,6 @@ include('./template/top.php');
     <div class="col-md-offset-1 col-md-10">
       <?php
 
-      echo '<p>APIurl : ' . $api_url . '</p>';
       if($debug) {
         echo '<p>APIurl : ' . $api_url . '</p>';
         echo '<!--';

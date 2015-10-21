@@ -21,15 +21,18 @@ if(isset($_GET['w'])) {
   echo "</script>\n";
   exit();
 }
+
+
+$ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
 ?>
 
 <!-- Begin page content -->
 <div class="container">
   <div class="page-header">
-    <h1 class="text-center" style="display: inline">祇園祭2015 企画案内<a href="./beginner"><img src="./img/beginner.png" width="50"></a></h1>
+    <h1 class="text-center" style="display: inline">祇園祭2015 企画案内<!--<a href="./beginner"><img src="./img/beginner.png" width="50"></a>--></h1>
   </div>
 
-  <h3>こちらでは<a href="//gionsai.yeno.net">木更津高専祇園祭2015</a>での企画紹介をしています。<br />カテゴリ別や金額別に検索することが可能です。</h3>
+  <h4>こちらでは<a href="//gionsai.yeno.net">木更津高専祇園祭2015</a>での企画紹介をしています。<br />カテゴリ別や金額別に検索することが可能です。</h4>
 
   <div class="form-group form-group-lg" style="margin: auto 20px">
 
@@ -37,10 +40,9 @@ if(isset($_GET['w'])) {
       <label for="category"></label>
       <select name="category" id="category" class="form-control" onChange="this.form.submit()">
         <option value="" selected>カテゴリ検索</option>
-        <option value="foods">食品</option>
-        <option value="experience">体験</option>
-        <option value="make">制作</option>
-        <option value="introduce">研究室紹介</option>
+        <?php foreach($ja_en->category as $key => $value ){ ?>
+          <option value="<?= $value ?>" selected><?= $key ?></option>
+        <?php } ?>
       </select>
     </form>
 

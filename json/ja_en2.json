@@ -18,17 +18,22 @@
   "place" : {
     "総合教育棟" : "synthesis",
     "一般研究棟" : "general",
-    "科学実験棟" : "general",
+    "科学実験棟" : "science",
     "第1研究棟" : "first" ,
     "第2研究棟" : "second" ,
     "第3研究棟" : "third" ,
     "第1体育館" : "gym1",
     "第2体育館" : "gym2",
+    "実験実習センター" : "gym2",
+    "ものづくり実習室" : "gym2",
+    "講義棟B" : "lecture_b",
+    "講義棟C" : "lecture_c",
+    "ガレージ" : "garage",
 
     "総合教育棟前" : "f_synthesis",
     "一般研究棟前" : "f_general",
     "第1研究棟前" : "f_first",
-    "校庭" : "ground"
+    "野球場" : "ground"
   },
   "food" : {
     "スナック" : "snack",

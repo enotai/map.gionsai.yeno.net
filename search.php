@@ -10,7 +10,6 @@ include('./template/top.php');
 //通常はページを遷移した後に画面サイズが変化することはない
 if(isset($_GET['w'])) {
   $screen_width = $_GET['w'];
-  $screen_width -= 60;//bootstrapがmobileでは30px左右空白を取る仕様のため
   //pcにも対応させる場合はbootstrapの仕様を読む必要がある
 } else {
   // ジオメトリ変数を渡す
@@ -19,10 +18,13 @@ if(isset($_GET['w'])) {
 
   echo "<script language='javascript'>\n";
   echo "  location.href=\"${_SERVER['SCRIPT_NAME']}?${_SERVER['QUERY_STRING']}"
-    . "&w=\" + window.innerWidth;\n";
+    . "w=\" + window.innerWidth;\n";
   echo "</script>\n";
   exit();
 }
+
+
+$ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
 ?>
 
 <!-- Begin page content -->
@@ -47,11 +49,9 @@ if(isset($_GET['w'])) {
         <label for="place">企画場所</label>
         <select name="place" id="place" class="form-control" onChange="this.form.submit()">
           <option value="" selected>建物名を選択</option>
-          <option value="synthesis">総合教育棟</option>
-          <option value="general">一般研究棟</option>
-          <option value="first">第一研究棟</option>
-          <option value="second">第二研究棟</option>
-          <option value="third">第三研究棟</option>
+          <<?php foreach($ja_en->place as $key => $value ){ ?>
+            <option value="<?= $value ?>" selected><?= $key ?></option>
+          <?php } ?>
         </select>
       </div>
     </form>
@@ -62,10 +62,9 @@ if(isset($_GET['w'])) {
         <label for="category">企画カテゴリ</label>
         <select name="category" id="category" class="form-control" onChange="this.form.submit()">
           <option value="" selected>カテゴリ検索</option>
-          <option value="foods">食品</option>
-          <option value="experience">体験</option>
-          <option value="make">制作</option>
-          <option value="introduce">研究室紹介</option>
+          <?php foreach($ja_en->category as $key => $value ){ ?>
+            <option value="<?= $value ?>" selected><?= $key ?></option>
+          <?php } ?>
         </select>
       </div>
     </form>
@@ -106,6 +105,8 @@ if(isset($_GET['w'])) {
       elseif($screen_width <= 992) $screen_width = 750 - 60;//60を引くのは仕様
       elseif($screen_width <= 1200) $screen_width = 970 - 60;
       else $screen_width = 1170 - 60;
+
+      if($debug) echo $screen_width;
       //昨年のデータから
       for($i = 0; $i < count($map_coord); $i++) {
         $coord = $map_coord[$i]->coords;//整形してもどす
@@ -113,7 +114,7 @@ if(isset($_GET['w'])) {
         $coord_array = explode(',', $coord);
         for($j = 0; $j < count($coord_array); $j++) {
           if($j % 2 == 0) {//x軸を対象に右へ
-            $coord_array[$j] += 1893 / 2 - 100;//値の微調整が必要
+            $coord_array[$j] += (1893 - 1060);//値の微調整が必要
           } else {//y軸を対象に下へ
             $coord_array[$j] -= 5;//値の微調整が必要
           }
@@ -124,7 +125,7 @@ if(isset($_GET['w'])) {
         $place = $map_coord[$i]->alt;
         $shape = $map_coord[$i]->shape;
         if($shape == 'circle')  continue;
-        $href = 'http://localhost/map.gionsai2015.yeno.net/search-result.php?place=' . $place;
+        $href = BASEURL. '/search-result?place=' . $place;
         echo '<area shape="' . $shape . '" coords="' . $coord . '" alt="' . $place . '" href="' . $href . '">';
       }
       ?>

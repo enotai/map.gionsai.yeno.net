@@ -130,7 +130,8 @@ class SearchProjectFood extends searchProject {
     for($i = 0; $i < count($this->kikaku_all); $i++) {
       if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
       if($this->kikaku_all[$i]->project_type == 'E') {//食品のみ
-        if($this->kikaku_all[$i]->category->main == $this->value)//検索キーワードにマッチしたものを含むものを配列に挿入
+        if($this->value == 'all') $kikaku_content += [$i => $this->type];
+        elseif($this->kikaku_all[$i]->category->main == $this->value)//検索キーワードにマッチしたものを含むものを配列に挿入
           $kikaku_content += [$i => $this->type];//placeがなくてbuildingがある / groupも同様
       }
     }

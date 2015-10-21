@@ -761,7 +761,7 @@
     "project_name": "○○ポテト",
     "group_name": "吹奏楽部",
     "group_type": "部活動",
-    "building_name": "一般研究棟前",
+    "building_name": "総合教育棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -806,7 +806,7 @@
     "project_name": "炭火焼きそば",
     "group_name": "水泳部",
     "group_type": "部活動",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -844,7 +844,7 @@
     "project_name": "パワフル焼きそば",
     "group_name": "柔道部",
     "group_type": "部活動",
-    "building_name": "総合教育棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -925,7 +925,7 @@
     "project_name": "Wurststube7",
     "group_name": "ドイツ研究同好会",
     "group_type": "同好会",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -945,7 +945,7 @@
     "project_name": "M科ナルド",
     "group_name": "M科男有志",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "総合教育棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -965,7 +965,7 @@
     "project_name": "ちゃんこ",
     "group_name": "島崎部屋有志",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1071,7 +1071,7 @@
     "project_name": "チャリ部のおやつトースト",
     "group_name": "自転車部",
     "group_type": "部活動",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1109,7 +1109,7 @@
     "project_name": "赤点★低空レストラン",
     "group_name": "M科留年勢",
     "group_type": "有志",
-    "building_name": "総合教育棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1129,8 +1129,8 @@
     "project_name": "PACO'S キッチン",
     "group_name": "料理研(非公認)",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
-    "room_name": "一般教育棟、吹き抜け付近",
+    "building_name": "第1研究棟前",
+    "room_name": null,
     "room_number": null,
     "category": {
       "main": "スイーツ",
@@ -1152,8 +1152,8 @@
     "project_name": "ハリー・ポテッターと不死鳥の唐揚げ",
     "group_name": "囲碁部",
     "group_type": "部活動",
-    "building_name": "総合教育棟前",
-    "room_name": "総合教育棟前（校門側）",
+    "building_name": "一般研究棟前",
+    "room_name": null,
     "room_number": null,
     "category": {
       "main": "肉",
@@ -1217,7 +1217,7 @@
     "project_name": "ザ・絹美人♪",
     "group_name": "DJ2有志",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "総合教育棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1279,7 +1279,7 @@
     "project_name": "もつの惑星 創世記",
     "group_name": "天文同好会",
     "group_type": "同好会",
-    "building_name": "一般研究棟前",
+    "building_name": "総合教育棟前",
     "room_name": "中庭",
     "room_number": null,
     "category": {
@@ -1380,7 +1380,7 @@
     "project_name": "hot.dog",
     "group_name": "4J有志",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": "中庭",
     "room_number": null,
     "category": {
@@ -1399,7 +1399,7 @@
     "project_name": "豚汁だよ",
     "group_name": "有志",
     "group_type": "有志",
-    "building_name": "総合教育棟前",
+    "building_name": "一般研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1437,7 +1437,7 @@
     "project_name": "肉丸",
     "group_name": "3年有志",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": "中庭",
     "room_number": null,
     "category": {
@@ -1554,8 +1554,8 @@
     "project_name": "ホットアイス",
     "group_name": "4D雄志",
     "group_type": "有志",
-    "building_name": "総合教育棟前",
-    "room_name": "正門前",
+    "building_name": "一般研究棟前",
+    "room_name": null,
     "room_number": null,
     "category": {
       "main": "スナック",
@@ -1674,7 +1674,7 @@
     "project_name": "天下第一味",
     "group_name": "留学生",
     "group_type": "有志",
-    "building_name": "一般研究棟前",
+    "building_name": "第1研究棟前",
     "room_name": null,
     "room_number": null,
     "category": {
@@ -1713,8 +1713,8 @@
     "project_name": "鳥々苑",
     "group_name": "寮生有志",
     "group_type": "有志",
-    "building_name": "実験実習センター",
-    "room_name": "工場棟前",
+    "building_name": "第1研究棟前",
+    "room_name": null,
     "room_number": null,
     "category": {
       "main": "肉",
