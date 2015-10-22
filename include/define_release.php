@@ -7,7 +7,7 @@
  */
 
 //header('Access-Control-Allow-Origin:*');
-define("BASEURL", "http://localhost/map.gionsai2015.yeno.net");
+define('BASEURL', 'http://map.gionsai.yeno.net');
 
 $debug = (isset($_GET['debug']) && htmlspecialchars($_GET['debug']) !== 0)? true : false;//デバッグモード
 $start = microtime();//読み込み時間計測

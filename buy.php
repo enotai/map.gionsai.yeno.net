@@ -42,7 +42,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
             <option value="all" selected>すべて</option>
 
             <?php foreach($ja_en->food as $key => $value ){ ?>
-            <option value="<?= $value ?>" selected><?= $key ?></option>
+            <option value="<?= $value ?>"><?= $key ?></option>
             <?php } ?>
           </select>
         </div>

@@ -50,7 +50,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
         <select name="place" id="place" class="form-control" onChange="this.form.submit()">
           <option value="" selected>建物名を選択</option>
           <<?php foreach($ja_en->place as $key => $value ){ ?>
-            <option value="<?= $value ?>" selected><?= $key ?></option>
+            <option value="<?= $value ?>"><?= $key ?></option>
           <?php } ?>
         </select>
       </div>
@@ -63,7 +63,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
         <select name="category" id="category" class="form-control" onChange="this.form.submit()">
           <option value="" selected>カテゴリ検索</option>
           <?php foreach($ja_en->category as $key => $value ){ ?>
-            <option value="<?= $value ?>" selected><?= $key ?></option>
+            <option value="<?= $value ?>"><?= $key ?></option>
           <?php } ?>
         </select>
       </div>

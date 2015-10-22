@@ -41,7 +41,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
       <select name="category" id="category" class="form-control" onChange="this.form.submit()">
         <option value="" selected>カテゴリ検索</option>
         <?php foreach($ja_en->category as $key => $value ){ ?>
-          <option value="<?= $value ?>" selected><?= $key ?></option>
+          <option value="<?= $value ?>"><?= $key ?></option>
         <?php } ?>
       </select>
     </form>
@@ -101,7 +101,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
         $place = $map_coord[$i]->alt;
         $shape = $map_coord[$i]->shape;
         if($shape == 'circle')  continue;
-        $href = 'http://localhost/map.gionsai2015.yeno.net/search-result.php?place=' . $place;
+        $href = BASEURL . '/search-result.php?place=' . $place;
         echo '<area shape="' . $shape . '" coords="' . $coord . '" alt="' . $place . '" href="' . $href . '">';
       }
       ?>

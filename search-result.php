@@ -20,7 +20,7 @@ $page_max = 10;//1ページの最大件数
 $param_type = ['word', 'place', 'category', 'group', 'food', 'min_price', 'max_price'];//受け渡しされる可能性のあるtype
 
 //簡単化するため、map.gionsai.yeno.netだけにし、パラメータを制限しない
-if(is_int(strpos('localhost/map.gionsai2015.yeno.net', $_SERVER['HTTP_REFERER']))) header("Location: " . $_SERVER['HTTP_REFERER']);
+if(is_int(strpos(BASEURL, $_SERVER['HTTP_REFERER']))) header("Location: " . $_SERVER['HTTP_REFERER']);
 
 $param_count = 0;
 $query = '';

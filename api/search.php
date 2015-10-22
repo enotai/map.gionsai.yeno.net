@@ -92,20 +92,20 @@ class SearchProjectWord extends searchProject {
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
     $kikaku_content = [];
 
+    $search_words = explode(' ', $this->value);
     //this->value : 検索ワード
     if($this->value === '') throw new Exception('検索文字列がない', 301);
     for($i = 0; $i < count($this->kikaku_all); $i++) {
       $count = 0;
       $add_content = '';
-      for($j = 0; $j < count($this->value); $j++) {
+      for($j = 0; $j < count($search_words); $j++) {
         if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
 
         $add_content = $this->kikaku_all[$i]->project_name . $this->kikaku_all[$i]->group_name . $this->kikaku_all[$i]->contents;//無理やりつなげて、検索対象としてぶっこむ
-        if(is_int(strpos($add_content, $this->value))) //文字列が最初に登場する場所が整数か / 登場しなければfalseを返す
+        if(is_int(strpos($add_content, $search_words[$j]))) //文字列が最初に登場する場所が整数か / 登場しなければfalseを返す
           $count++;//条件に一致した個数 / 複数検索用
-
       }
-      if($count == count($this->value))
+      if($count == count($search_words))
         $kikaku_content += [$i => $add_content];
 
     }
@@ -186,6 +186,32 @@ class SearchProjectPrice extends searchProject {
   }
 }
 
+
+class SearchProjectFloor extends searchProject {
+  /**
+   * @return string
+   * @throws Exception
+   */
+  public function matchProject() {//thisがおおすぎ / 引数をつかえ
+    $kikaku_content = [];
+
+    for($i = 0; $i < count($this->kikaku_all); $i++) {
+      if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
+      if(isset($this->kikaku_all[$i]->room_number)) {
+        $floor_number = substr($this->kikaku_all[$i]->room_number, 0, 1);//部屋番号の先頭文字を取得
+        if($floor_number == $this->value)//検索キーワードにマッチしたものを含むものを配列に挿入
+          $kikaku_content += [$i => $this->type];//placeがなくてbuildingがある / groupも同様
+      }
+    }
+
+    if($kikaku_content == []) throw new Exception('該当なし', 402);
+
+    $kikaku_json = $this->jsonOutput($kikaku_content);
+
+    return $kikaku_json;
+  }
+}
+
 /**
  * 検索実行
  * typeに応じて処理を変化
@@ -196,14 +222,18 @@ class SearchProjectPrice extends searchProject {
 try {
   $init = new InitializeArray();//配列形式に移行
   $init->trans_param = ['place', 'category', 'group', 'food'];//パラメータを日本語に変換させるもの
-  $init->assignParamArray(['word', 'place', 'category', 'group', 'food', 'price', 'min_price', 'max_price'], ['min_price', 'max_price']);
+  $init->assignParamArray(['word', 'place', 'category', 'group', 'food', 'price', 'floor', 'min_price', 'max_price']);
   //initializeを実行
 
   $search_result = '';
   $double = false;
   $search_value = '';
   $search_type = '';
+
+
+  if(!isset($init->value[0])) throw new Exception('パラメータなし', -1);
   for($i = 0; $i < count($init->type); $i++) {//パラメータを左から見ていく
+
     $search = new SearchProject();
 
     if($init->type[$i] == 'min_price'){
@@ -252,6 +282,17 @@ try {
 
       case 'word' :
         $search = new SearchProjectWord();//複数条件できない
+
+
+        $search->type = $init->type[$i];//インスタンス再生成
+        $search->value = $init->value[$i];
+
+        if($i == 0) $search->kikaku_all = $init->kikaku_all;
+        else $search->kikaku_all = $search_result;
+        break;
+
+      case 'floor' :
+        $search = new SearchProjectFloor();//複数条件できない
 
 
         $search->type = $init->type[$i];//インスタンス再生成
