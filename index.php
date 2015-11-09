@@ -90,7 +90,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
         $coord_array = explode(',', $coord);
         for($j = 0; $j < count($coord_array); $j++) {
           if($j % 2 == 0) {//x軸を対象に右へ
-            $coord_array[$j] += 1893 / 2 - 100;//値の微調整が必要
+            $coord_array[$j] += (1893 - 1060);//値の微調整が必要
           } else {//y軸を対象に下へ
             $coord_array[$j] -= 5;//値の微調整が必要
           }
