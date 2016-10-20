@@ -36,18 +36,18 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
 
   <div class="form-group form-group-lg" style="margin: auto 20px">
 
-    <form action="./search-result" method="get">
+    <form action="./search-result.php" method="get">
       <label for="category"></label>
       <select name="category" id="category" class="form-control" onChange="this.form.submit()">
         <option value="" selected>カテゴリ検索</option>
         <?php foreach($ja_en->category as $key => $value ){ ?>
-          <option value="<?= $value ?>"><?= $key ?></option>
+          <option value="<?php echo $value ?>"><?php echo $key ?></option>
         <?php } ?>
       </select>
     </form>
 
     <div style="margin-top: 30px"><!--なにか入れる?--></div>
-    <form action="./search-result" method="get">
+    <form action="./search-result.php" method="get">
       <div class="input-group">
         <span class="input-group-addon" id="sizing-addon2" style="font-size:24px">￥</span>
         <input type="hidden" class="form-control" id="min_price" name="min_price" value="0">

@@ -5,7 +5,7 @@
         祇園祭Navi
       </div>
       <div class="nav navbar-nav navbar-right">
-        <form class="input-group form-horizontal" role="form" action="./search-result" method="get">
+        <form class="input-group form-horizontal" role="form" action="./search-result.php" method="get">
           <input type="search" class="form-control" name="word" id="word" placeholder="検索ワード">
           <span class="input-group-btn">
             <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>

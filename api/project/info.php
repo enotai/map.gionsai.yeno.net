@@ -87,14 +87,14 @@ class searchProjectOnly {//一つだけ
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ / 上のCheckParamを使用
-    $kikaku_content = [];
+    $kikaku_content = array();
     for ($i = 0; $i < count($this->kikaku_all); $i++) {
       if ($this->kikaku_all[$i]->project_type == strtoupper($this->proj_type) && $this->kikaku_all[$i]->project_number == $this->proj_number) {//検索
         $kikaku_content[$i] = $this->kikaku_all[$i];//該当するものはひとつしか無いし大丈夫でしょう
         break;
       }
     }
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -187,7 +187,7 @@ try {
       break;
   }
 } catch (Exception $e) {//エラー回収
-  $error = new Error();
+  $error = new ErrorUtil();
   $error_message =  $error->outputError($e->getCode());
   //echo ($e->getMessage());
 

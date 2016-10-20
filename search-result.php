@@ -104,29 +104,29 @@ include('./template/top.php');
       for($i = 0; $i < count($kikaku_result); $i++) {//自身は飛ばす
         ?>
         <h3>
-          <a href="./project-detail.php?proj_type=<?= $kikaku_result[$i]->project_type ?>&proj_number=<?= $kikaku_result[$i]->project_number ?>"><?= $kikaku_result[$i]->project_name ?>
+          <a href="./project-detail.php?proj_type=<?php echo $kikaku_result[$i]->project_type ?>&proj_number=<?php echo $kikaku_result[$i]->project_number ?>"><?php echo $kikaku_result[$i]->project_name ?>
             <br>
-              <span style="font-size:80%">@ <? echo $kikaku_result[$i]->building_name;
-                if(isset($kikaku_result[$i]->room_name)) echo ' - ' . $kikaku_result[$i]->room_name ?></span></a>
+              <span style="font-size:80%">@ <?php echo $kikaku_result[$i]->building_name;
+                if(isset($kikaku_result[$i]->room_name) || $kikaku_result[$i]->room_name != null) echo ' - ' . $kikaku_result[$i]->room_name ?></span></a>
         </h3>
-        <h4 style="margin-left: 20px">Organization : <?= $kikaku_result[$i]->group_name ?></h4>
+        <h4 style="margin-left: 20px">Organization : <?php echo $kikaku_result[$i]->group_name ?></h4>
 
 
         <div class="thumbnail">
           <div class="caption">
-            <? if($kikaku_result[$i]->project_type == 'D' || $kikaku_result[$i]->project_type == 'E') : ?>
+            <?/* if($kikaku_result[$i]->project_type == 'D' || $kikaku_result[$i]->project_type == 'E') : */?><!--
               <p>
-                <span class="label label-info"><? if(isset($kikaku_result[$i]->category->sub)) echo $kikaku_result[$i]->category->sub ?></span>
+                <span class="label label-info"><?/* if(isset($kikaku_result[$i]->category->sub)) echo $kikaku_result[$i]->category->sub */?></span>
               </p>
               <div class="alert alert-success" role="alert">
                 <?php
-                foreach($kikaku_result[$i]->item as $food => $price) {
+/*                foreach($kikaku_result[$i]->item as $food => $price) {
                   echo $food . ':' . $price . '円<br>';
                 }
-                ?>
+                */?>
               </div>
-            <? endif; ?>
-            <p><?= nl2br($kikaku_result[$i]->contents) ?></p>
+            --><?/* endif; */?>
+            <p><?php echo nl2br($kikaku_result[$i]->contents) ?></p>
           </div>
         </div>
 

@@ -126,7 +126,7 @@ function getParam(param) {
   parameters = url.split("?");
   if (parameters.length >= 2) { // ?要素がなかったら入らない
     params = parameters[1].split("&");
-    var paramsArray = [];
+    var paramsArray = array();
     for (i = 0; i < params.length; i++) {
       neet = params[i].split("=");
       paramsArray.push(neet[0]);

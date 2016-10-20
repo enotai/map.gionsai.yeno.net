@@ -26,7 +26,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
 
     <div class="form-group form-group-lg" style="margin: auto 20px">
 
-      <form action="./search-result" method="get">
+      <form action="./search-result.php" method="get">
         <div class="form-group">
           <label for="price">販売価格</label>
           <div class="input-group input-group-double">
@@ -42,7 +42,7 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
             <option value="all" selected>すべて</option>
 
             <?php foreach($ja_en->food as $key => $value ){ ?>
-            <option value="<?= $value ?>"><?= $key ?></option>
+            <option value="<?php echo $value ?>"><?php echo $key ?></option>
             <?php } ?>
           </select>
         </div>

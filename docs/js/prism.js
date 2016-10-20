@@ -100,7 +100,7 @@
       all : {},
       add : function(a, b) {
         var c = d.hooks.all;
-        c[a] = c[a] || [];
+        c[a] = c[a] || array();
         c[a].push(b)
       },
       run : function(a, b) {
@@ -316,7 +316,7 @@ Prism.languages.insertBefore(
 );
 Prism.languages.markup && (Prism.hooks.add(
   "before-highlight", function(b) {
-    "php" === b.language && (b.tokenStack = [], b.code = b.code.replace(
+    "php" === b.language && (b.tokenStack = array(), b.code = b.code.replace(
       /(?:&lt;\?php|&lt;\?|<\?php|<\?)[\w\W]*?(?:\?&gt;|\?>)/ig, function(d) {
         b.tokenStack.push(d);
         return "{{{PHP" + b.tokenStack.length + "}}}"

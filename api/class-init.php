@@ -30,7 +30,7 @@ class Initialize {
 
     header('Content-Type: application/json; charset=utf-8');
 
-    $kikaku_json = dirname(__FILE__) . '/../json/gionsai2015kikaku_make3.json';//企画db取得
+    $kikaku_json = dirname(__FILE__) . '/../json/gionsai2016kikaku_make.json';//企画db取得
     $this->kikaku_all = json_decode(file_get_contents($kikaku_json));
 
     $this->page_max = 10;//1ページの最大件数

@@ -80,7 +80,7 @@ include('template/top.php');
         ?>
       </div>
     </div>
-  <? if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
+  <?php if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
   </div>
 </div>
 

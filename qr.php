@@ -41,10 +41,10 @@ include('./template/top.php');
 
       ?>
 
-      <circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="<?= $cx1 ?>" cy="<?= $cy1 ?>" r="<?= $r1 ?>"/>
-      <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="<?= $x11 ?>" y1="<?= $y11 ?>" x2="<?= $x21 ?>" y2="<?= $y21 ?>"/>
-      <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="<?= $x12 ?>" y1="<?= $y12 ?>" x2="<?= $x22 ?>" y2="<?= $y22 ?>"/>
-      <circle fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" cx="<?= $cx2 ?>" cy="<?= $cy2 ?>" r="<?= $r2 ?>"/>
+      <circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="<?php echo $cx1 ?>" cy="<?php echo $cy1 ?>" r="<?php echo $r1 ?>"/>
+      <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="<?php echo $x11 ?>" y1="<?php echo $y11 ?>" x2="<?php echo $x21 ?>" y2="<?php echo $y21 ?>"/>
+      <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="<?php echo $x12 ?>" y1="<?php echo $y12 ?>" x2="<?php echo $x22 ?>" y2="<?php echo $y22 ?>"/>
+      <circle fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" cx="<?php echo $cx2 ?>" cy="<?php echo $cy2 ?>" r="<?php echo $r2 ?>"/>
     </svg>
   </div>
 </div>

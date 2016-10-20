@@ -131,29 +131,29 @@ include('./template/top.php');
     ?>
       <div class="col-md-12" style="padding-bottom: 30px">
         <h2>
-         <?= $kikaku_result[0]->project_name ?><br>
-          <span style="font-size:80%;padding-left:24px">@ <? echo $kikaku_result[0]->building_name; if(isset($kikaku_result[0]->room_name)) echo ' - '. $kikaku_result[0]->room_name ?></span>
+         <?php echo $kikaku_result[0]->project_name ?><br>
+          <span style="font-size:80%;padding-left:24px">@ <?php echo $kikaku_result[0]->building_name; if(isset($kikaku_result[0]->room_name) && $kikaku_result[0]->room_name != null) echo ' - '. $kikaku_result[0]->room_name ?></span>
         </h2>
-        <h3>Organization :<?= $kikaku_result[0]->group_name ?></h3>
+        <h3>Organization :<?php echo $kikaku_result[0]->group_name ?></h3>
 
 
 
 
 
         <div class="thumbnail">
-          <img src="<?= $kikaku_result[0]->img_address ?>">
+          <img src="<?php echo $kikaku_result[0]->img_address ?>">
           <div class="caption">
-            <? if($kikaku_result[0]->project_type == 'E') :?>
-              <p><span class="label label-info"><?= $kikaku_result[0]->category->sub ?></span></p>
+            <?/* if($kikaku_result[0]->project_type == 'E') :*/?><!--
+              <p><span class="label label-info"><?php /*echo $kikaku_result[0]->category->sub */?></span></p>
               <div class="alert alert-success" role="alert">
                 <?php
-                foreach($kikaku_result[0]->item as $food => $price){
+/*                foreach($kikaku_result[0]->item as $food => $price){
                   echo $food .':' . $price .'円<br>';
                 }
-                ?>
+                */?>
               </div>
-            <? endif; ?>
-            <p><?= nl2br($kikaku_result[0]->contents) ?></p>
+            --><?/* endif; */?>
+            <p><?php echo nl2br($kikaku_result[0]->contents) ?></p>
           </div>
         </div>
 
@@ -167,7 +167,7 @@ include('./template/top.php');
 
 <?php include('./img/campus-map.svg.txt'); ?>
 
-      <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="<?= $x1 ?>" y1="<?= $y1 ?>" x2="<?= $x2 ?>" y2="<?= $y2 ?>">
+      <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="<?php echo $x1 ?>" y1="<?php echo $y1 ?>" x2="<?php echo $x2 ?>" y2="<?php echo $y2 ?>">
         <stop  offset="0" style="stop-color:#E0770E"/>
         <stop  offset="0.002" style="stop-color:#E0770E"/>
         <stop  offset="0.3323" style="stop-color:#DF6415"/>
@@ -175,8 +175,8 @@ include('./template/top.php');
         <stop  offset="1" style="stop-color:#DC5419"/>
       </linearGradient>
       <path fill="url(#SVGID_1_)" d="
-      M<?= $xm1 ?>,
-      <?= $ym1 ?>
+      M<?php echo $xm1 ?>,
+      <?php echo $ym1 ?>
       c -0.763 -3.889 -4.188 -6.825 -8.301 -6.825
       c -4.116,
       0 -7.542,
@@ -187,12 +187,12 @@ include('./template/top.php');
       19.254,
       8.303,
       19.254
-      S<?= $xs ?>,<?= $ys ?>,
-      <?= $xz1 ?>,
-      <?= $yz1 ?>z
+      S<?php echo $xs ?>,<?php echo $ys ?>,
+      <?php echo $xz1 ?>,
+      <?php echo $yz1 ?>z
 
-      M<?= $xm2 ?>,
-      <?= $ym2 ?>
+      M<?php echo $xm2 ?>,
+      <?php echo $ym2 ?>
       c -2.372,
       0 -4.294 -1.923 -4.294 -4.294
       c 0 -2.372,
@@ -201,11 +201,11 @@ include('./template/top.php');
       1.923,
       4.295,
       4.295
-      C<?= $xc ?>,<?= $yc ?>,
-      <?= $xz21 ?>,
-      <?= $yz21 ?>,
-      <?= $xz22 ?>,
-      <?= $yz22 ?>
+      C<?php echo $xc ?>,<?php echo $yc ?>,
+      <?php echo $xz21 ?>,
+      <?php echo $yz21 ?>,
+      <?php echo $xz22 ?>,
+      <?php echo $yz22 ?>
       z
       "/>
 

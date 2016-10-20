@@ -6,7 +6,7 @@
  * Time: 13:30
  */
 
-class Error {
+class ErrorUtil {
 
   public $error_code;
 

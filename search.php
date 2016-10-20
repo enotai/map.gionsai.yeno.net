@@ -37,40 +37,40 @@ $ja_en = json_decode(file_get_contents('./json/ja_en2.json'));
 
   <div class="form-group form-group-lg" style="margin: auto 20px">
 
-    <form action="./search-result" method="get">
+    <form action="./search-result.php" method="get">
       <div class="form-group">
         <label for="word">単語検索</label>
         <input type="text" value="" name="word" id="word" class="form-control" placeholder="Word" />
       </div>
     </form>
 
-    <form action="./search-result" method="get">
+    <form action="./search-result.php" method="get">
       <div class="form-group">
         <label for="place">企画場所</label>
         <select name="place" id="place" class="form-control" onChange="this.form.submit()">
           <option value="" selected>建物名を選択</option>
           <<?php foreach($ja_en->place as $key => $value ){ ?>
-            <option value="<?= $value ?>"><?= $key ?></option>
+            <option value="<?php echo $value ?>"><?php echo $key ?></option>
           <?php } ?>
         </select>
       </div>
     </form>
 
-    <form action="./search-result" method="get">
+    <form action="./search-result.php" method="get">
 
       <div class="form-group">
         <label for="category">企画カテゴリ</label>
         <select name="category" id="category" class="form-control" onChange="this.form.submit()">
           <option value="" selected>カテゴリ検索</option>
           <?php foreach($ja_en->category as $key => $value ){ ?>
-            <option value="<?= $value ?>"><?= $key ?></option>
+            <option value="<?php echo $value ?>"><?php echo $key ?></option>
           <?php } ?>
         </select>
       </div>
     </form>
 
     <!--とべない-->
-    <!--<form action="./search-result" method="get">
+    <!--<form action="./search-result.php" method="get">
       <div class="form-group">
         <label for="price">販売価格</label>
           <div class="input-group input-group-double">

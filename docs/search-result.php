@@ -40,7 +40,7 @@ if(isset($_GET['api'])) {// /search-result.phpが完成したらそちらを試�
 
   $type = 'price';//下で使用してる
 } else {
-  $get_array = [];
+  $get_array = array();
   foreach($_GET as $key => $param) {
     $key = s($key);
     $param = s($param);
@@ -135,7 +135,7 @@ include('./template/top.php');
         $load_time = ($end - $start) * 1000;
         ?>
 
-        <? if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
+        <?php if($debug) echo '<p>読み込み時間 : ' . $load_time . 'ms</p>'; ?>
       </div>
     </div>
   </div>

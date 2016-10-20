@@ -3,9 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="National Institute of Technology, Kisarazu College  Gion-Festival Executive Committee  Public Relations Department">
 
-<meta name="keyword" content="<?=$keyword?>">
-<meta name="description" content="<?=$description?>">
-<title><?=$title?></title>
+<meta name="keyword" content="<?php echo $keyword?>">
+<meta name="description" content="<?php echo $description?>">
+<title><?php echo $title?></title>
 
 <!-- Bootstrap core CSS -->
 <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">

@@ -36,7 +36,7 @@ class searchProject {//簡単な選択系から
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
-    $kikaku_content = [];
+    $kikaku_content = array();
 
     for($i = 0; $i < count($this->kikaku_all); $i++) {
       if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
@@ -44,7 +44,7 @@ class searchProject {//簡単な選択系から
         $kikaku_content += [$i => $this->type];//placeがなくてbuildingがある / groupも同様
     }
 
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -90,7 +90,7 @@ class SearchProjectWord extends searchProject {
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
-    $kikaku_content = [];
+    $kikaku_content = array();
 
     $search_words = explode(' ', $this->value);
     //this->value : 検索ワード
@@ -109,7 +109,7 @@ class SearchProjectWord extends searchProject {
         $kikaku_content += [$i => $add_content];
 
     }
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -125,7 +125,7 @@ class SearchProjectFood extends searchProject {
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
-    $kikaku_content = [];
+    $kikaku_content = array();
 
     for($i = 0; $i < count($this->kikaku_all); $i++) {
       if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
@@ -136,7 +136,7 @@ class SearchProjectFood extends searchProject {
       }
     }
 
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -151,7 +151,7 @@ class SearchProjectPrice extends searchProject {
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
-    $kikaku_content = [];
+    $kikaku_content = array();
     $kikaku_all_tmp = $this->kikaku_all;
 
     $price_array = explode('-', $this->value);
@@ -172,13 +172,13 @@ class SearchProjectPrice extends searchProject {
           }
         }
 
-        if(json_decode(json_encode($kikaku_all_tmp[$i]->item), true) == []) unset($kikaku_all_tmp[$i]);//空オブジェクト判定できる方法が見つからないのでjson関数を使って配列変換;
+        if(json_decode(json_encode($kikaku_all_tmp[$i]->item), true) == array()) unset($kikaku_all_tmp[$i]);//空オブジェクト判定できる方法が見つからないのでjson関数を使って配列変換;
         if(isset($kikaku_all_tmp[$i])){//isset使わないと文法エラー
           $kikaku_content[$i] = $kikaku_all_tmp[$i];
         }
       }
     }
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -193,7 +193,7 @@ class SearchProjectFloor extends searchProject {
    * @throws Exception
    */
   public function matchProject() {//thisがおおすぎ / 引数をつかえ
-    $kikaku_content = [];
+    $kikaku_content = array();
 
     for($i = 0; $i < count($this->kikaku_all); $i++) {
       if(isset($this->kikaku_all[$i]->alias)) continue; //aliasとなったものの処理
@@ -204,7 +204,7 @@ class SearchProjectFloor extends searchProject {
       }
     }
 
-    if($kikaku_content == []) throw new Exception('該当なし', 402);
+    if($kikaku_content == array()) throw new Exception('該当なし', 402);
 
     $kikaku_json = $this->jsonOutput($kikaku_content);
 
@@ -270,7 +270,7 @@ try {
         $search->type = 'group_type';
         break;
 
-      case 'food' :
+      /*case 'food' :
         $search = new SearchProjectFood();//めんどくさいけど、とりま
 
         $search->type = $init->type[$i];
@@ -278,7 +278,7 @@ try {
 
         if($i == 0) $search->kikaku_all = $init->kikaku_all;
         else $search->kikaku_all = $search_result;
-        break;
+        break;*/
 
       case 'word' :
         $search = new SearchProjectWord();//複数条件できない
@@ -302,7 +302,7 @@ try {
         else $search->kikaku_all = $search_result;
         break;
 
-      case 'price' :
+     /* case 'price' :
         $search = new SearchProjectPrice();//めんどくさいけど、とりま
 
         if($double){
@@ -318,7 +318,7 @@ try {
           if($i == 0) $search->kikaku_all = $init->kikaku_all;
           else $search->kikaku_all = $search_result;
         }
-        break;
+        break;*/
 
       default :
         break;
@@ -388,7 +388,7 @@ try {
   echo $search->matchProject();*/
 
 } catch(Exception $e) {//エラー回収
-  $error = new Error();
+  $error = new ErrorUtil();
   $error_message =  $error->outputError($e->getCode());
 
   $json_util = new JsonUtil();
